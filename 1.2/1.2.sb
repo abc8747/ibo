@@ -1,0 +1,10 @@
+TextWindow.ForegroundColor = "Yellow"
+TextWindow.Title = "Small Basic Programming"
+TextWindow.CursorLeft = "20"
+TextWindow.CursorTop = "10"
+
+TextWindow.Write("Welcome to the world of Small Basic Programming")
+TextWindow.WriteLine("     ")
+TextWindow.WriteLine("     ")
+TextWindow.WriteLine("     ")
+TextWindow.WriteLine("     ")

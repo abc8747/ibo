@@ -1,0 +1,33 @@
+TextWindow.Title = "Grade Calculator"
+start:
+TextWindow.CursorLeft = "30"
+TextWindow.WriteLine("Please type in the Percentage of Student. Type 'Exit' to close this window.")
+PercInput = TextWindow.Read()
+
+If PercInput = "Exit" Then
+  TextWindow.Hide()
+ElseIf PercInput >100 Then 
+  TextWindow.WriteLine("Error. The percentage must be within 100%. Please type in the Percentage of the Student")
+  Goto start
+ElseIf PercInput <0 Then 
+  TextWindow.WriteLine("Error. The percentage over 0%. Please type in the Percentage of the Student")
+  Goto start
+ElseIf PercInput >75 Then
+  TextWindow.WriteLine("The percentage of the student is " + PercInput + "%. Therefore the grade is A.")
+  Goto start
+ElseIf PercInput >=60 Then
+  TextWindow.WriteLine("The percentage of the student is " + PercInput + "%. Therefore the grade is B.")
+  Goto start
+ElseIf PercInput >=35 Then
+  TextWindow.WriteLine("The percentage of the student is " + PercInput + "%. Therefore the grade is C.")
+  Goto start
+ElseIf PercInput >0 Then
+  TextWindow.WriteLine("The percentage of the student is " + PercInput + "%. Therefore the grade is D.")
+  Goto start
+ElseIf PercInput = 0 Then
+  TextWindow.WriteLine("The percentage of the student is " + PercInput + "%. Therefore the grade is D.")
+  Goto start
+Else
+  TextWindow.WriteLine("Sorry, but your input:" " + PercInput +  " is not a valid input. Please try again.")
+  Goto start
+EndIf
