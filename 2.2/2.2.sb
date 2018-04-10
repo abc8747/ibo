@@ -1,0 +1,67 @@
+GraphicsWindow.Show()
+GraphicsWindow.Height = "400"
+GraphicsWindow.Width = "400"
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.Title = "C:\Windows\System32\cmd.exe"
+Turtle.Show()
+Turtle.X = "100"
+Turtle.Y = "150"
+Turtle.Speed = 100
+Angle = "160"
+
+For iteration = 100 To 180 Step 2.5
+  GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+  Turtle.Move(iteration)
+  Turtle.Turn(Angle)
+  Turtle.Move(iteration)
+  Turtle.Turn(Angle)
+EndFor
+
+Turtle.X = "200"
+Turtle.Y = "250"
+
+For iteration = 100 To 180 Step 2.5
+  GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+  Turtle.Move(iteration)
+  Turtle.Turn(Angle)
+  Turtle.Move(iteration)
+  Turtle.Turn(Angle)
+EndFor
+
+                  'The following is just an extra happy face...
+          Turtle.Speed = "5"
+          Turtle.PenUp()
+          Turtle.MoveTo(200,50)
+          Turtle.PenDown()
+          Turtle.Angle = "180"
+          For a = 1 To 25
+            GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+            Turtle.Move(1)
+          EndFor
+          Turtle.PenUp()
+          Turtle.MoveTo(250,50)
+          Turtle.PenDown()
+          Turtle.Angle = "180"
+          For n = 1 To 25
+            GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+            Turtle.Move(1)
+          EndFor
+          Turtle.PenUp()
+          Turtle.MoveTo(200,100)
+          Turtle.Angle = "180"
+          Turtle.PenDown()
+
+          Turtle.Speed = "10000"
+          For TurnTimes = 1 To 100
+            GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+            Turtle.Turn(-180/100)
+            Turtle.Move((25 * 3.1415962)/100)
+          EndFor
+
+          Turtle.Angle = "270"
+          For c = 1 To 50
+            GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+            Turtle.Move(1)
+          EndFor
+          Turtle.PenUp()
+          Turtle.MoveTo(0,0)
