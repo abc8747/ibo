@@ -1,0 +1,232 @@
+TextWindow.Show()
+HateInput = 0
+TextWindow.Title = "Win32.Generic.Trojan.Downloader.155474 Detected!!!"
+TextWindow.WriteLine("Hello, :)")
+TextWindow.WriteLine("  ")' Just an empty line
+TextWindow.WriteLine("Could you please tell me your name?")
+name = TextWindow.Read()
+
+start:
+TextWindow.ForegroundColor = "green"
+TextWindow.WriteLine("OK, " + name + ", do you have any idea what is GREEN DAY?")
+TextWindow.WriteLine("Please tell me you know what is GREEN DAY...")
+TextWindow.WriteLine("If you know who is Green Day, please type 'Y' or 'y' below")
+TextWindow.ForegroundColor = "red"
+TextWindow.WriteLine("But if you do not know what is GREEN DAY,")
+TextWindow.WriteLine("please type in 'N' or 'n' below.")
+TextWindow.ForegroundColor = "white"
+FirstInput1 = TextWindow.Read()
+FirstInput = Text.ConvertToUpperCase(FirstInput1)
+TextWindow.Clear()
+
+    If (Text.GetLength(FirstInput) = 1) Then
+      If (FirstInput = "Y") Then
+        KnowInput = 0
+        LikeOrNot()
+      ElseIf (FirstInput = "N") Then
+        KnowInput = KnowInput + 1
+        Info()
+      Else
+        TextWindow.WriteLine("Sorry, but your input: " + FirstInput + " is neither 'Y' nor 'N'.")    
+        TextWindow.WriteLine("Please type in again.")
+        Goto start
+      EndIf
+    ElseIf (Text.GetLength(FirstInput) = 0) Then
+      TextWindow.WriteLine("Excuse me, put you have typed nothing.")
+      TextWindow.WriteLine("Please type in again.")
+      Goto start
+    Else
+      TextWindow.WriteLine("Sorry, put you have typed " + Text.GetLength(FirstInput) + "characters! ")
+      TextWindow.WriteLine("Please type in again.")
+      Goto start
+    EndIf 
+  
+Sub LikeOrNot
+    Program.Delay(500)
+    TextWindow.ForegroundColor = "green"
+    TextWindow.WriteLine("OK then, Please tell me if you like GREEN DAY or not... ")
+    TextWindow.WriteLine("For 'Yes', please type 'Y' or 'y' below")
+    TextWindow.ForegroundColor = "red"
+    TextWindow.WriteLine("But if your computer is ready to be attacked by a virus,")
+    TextWindow.WriteLine("You may lose all data. For 'No', please type in 'N' or 'n' below")
+    TextWindow.ForegroundColor = "yellow"
+    SecondInput1 = TextWindow.Read()
+    SecondInput = Text.ConvertToUpperCase(SecondInput1)
+EndSub
+
+    If (Text.GetLength(SecondInput) = 1) Then
+      If (SecondInput = "Y") Then
+        HateInput = 0
+        GreatYes()
+      ElseIf (SecondInput = "N") Then
+        HateInput = HateInput + 1
+        StupidNo()
+      Else
+        RedLine()
+        TextWindow.WriteLine("Sorry, but your input: " + SecondInput + " is neither 'Y' nor 'N'.")    
+        TextWindow.WriteLine("Please type in again.(Better be a yes)")
+        Goto start
+      EndIf
+    ElseIf (Text.GetLength(SecondInput) = 0) Then
+      RedLine()
+      TextWindow.WriteLine("Excuse me, put you have typed nothing.")
+      TextWindow.WriteLine("Please type in again.(Better be a yes)")
+      Goto start
+    Else
+      RedLine()
+      TextWindow.WriteLine("Sorry, put you have typed " + Text.GetLength(SecondInput) + "characters! ")
+      TextWindow.WriteLine("Please type in again.")
+      Goto start
+    EndIf 
+
+Sub Info
+    TextWindow.ForegroundColor = "skyblue"
+    TextWindow.Clear()
+    TextWindow.WriteLine("OK. GREEN DAY is an American punk/alternative rock band since 1986. ")
+    TextWindow.WriteLine("Green day have won 5 Grammy Awards and 86 other awards from around the world. ")
+    TextWindow.WriteLine("What you will listen now is '21 guns' by GREEN DAY. ")
+    Program.Delay(500)
+    TextWindow.WriteLine("         ")
+    TextWindow.WriteLine("OK then " + name + ", here are the lyrics of '21 Guns'.")
+    TextWindow.WriteLine("'21 Guns' is a song by GREEN DAY from the album of '21st Century Breakdown'. ")
+    TextWindow.WriteLine("Published in Jul 14, 2009, peaking No.22 on the Billboard Hot 100.")
+    Program.Delay(5000)
+    TextWindow.WriteLine("The song will start in")
+    Program.Delay(1000)
+    TextWindow.WriteLine("3... ")
+    Program.Delay(1000)
+    TextWindow.WriteLine("2... ")
+    Program.Delay(1000)
+    TextWindow.WriteLine("1... ")
+    Sound.Play(Program.Directory + "\Guns.mp3")
+    TextWindow.WriteLine("         ")
+    TextWindow.Clear()
+    Program.Delay(10848)
+    TextWindow.Clear()
+    TextWindow.WriteLine("Do you know what's worth fighting for?")
+    Program.Delay(4980)
+    TextWindow.Clear()
+    Program.Delay(983)
+    TextWindow.WriteLine("When it's not worth dying for?")
+    Program.Delay(4765)
+    TextWindow.Clear()
+    Program.Delay(1050)
+    TextWindow.WriteLine("Does it take your breath away?")
+    Program.Delay(4468)
+    TextWindow.Clear()
+    Program.Delay(380)
+    TextWindow.WriteLine("And you feel yourself suffocating...")
+    Program.Delay(5055)
+    TextWindow.Clear()
+    Program.Delay(2483)
+    TextWindow.WriteLine("Does the pain weigh out the pride?")
+    Program.Delay(4900)
+    TextWindow.Clear()
+    Program.Delay(1164) 
+    TextWindow.WriteLine("And you look for a place to hide?")
+    Program.Delay(4738)
+    TextWindow.Clear()
+    Program.Delay(1258)
+    TextWindow.WriteLine("Did someone break your heart inside?")
+    Program.Delay(4179)
+    TextWindow.Clear()
+    Program.Delay(380)
+    TextWindow.WriteLine("You're in ruins...")
+    Program.Delay(4388)
+    TextWindow.Clear()
+    TextWindow.WriteLine("Now at least you know what is GREEN DAY")
+    LikeOrNot()
+EndSub
+
+Sub GreatYes
+  TextWindow.Clear()
+  GreenLine()
+  TextWindow.WriteLine("CONGRATS!!! YOU HAVE CHOSEN THE CORRECT ANSWER!!!")
+  Sound.PlayChime()
+  Program.Delay(10000)
+EndSub
+
+Sub StupidNo
+  TextWindow.Clear()
+  For replaymusic = 0 To 2
+    Sound.Play(Program.Directory + "\PullUp.mp3")
+  EndFor
+  RedLine()
+  TextWindow.WriteLine("You chose the wrong answer. You will be destroyed by GreenDay.Win32.Gen.Trojan in 3 seconds!!!")
+  TextWindow.WriteLine("You chose the wrong answer. Please close all programs to be destroyed by this program.")
+  Program.Delay(3000)
+  
+                  'FAKE VIRUS that pops out a Green Day picture on 1920 x 1080 supported screens
+  
+                  For reopen = 0 To 100
+                    GreenDayPic = Program.Directory + "\GreenDayPic1.jpg"
+                    GraphicsWindow.Height = "1080"
+                    GraphicsWindow.Width = "1920"
+                    GraphicsWindow.BackgroundColor = "Red"
+                    GraphicsWindow.Show()
+                    GraphicsWindow.DrawResizedImage(GreenDayPic, 0, 0, 1920, 1080)
+                    Program.Delay(100)
+                    GraphicsWindow.Hide()
+                    TextWindow.Show()
+                    Program.Delay(100)
+                    TextWindow.Hide()
+                  EndFor
+                  
+  TextWindow.Show()
+  Program.Delay(500)
+  TextWindow.WriteLine("Like the virus?")
+  TextWindow.WriteLine("If you enjoyed the virus, you may type in 'y' or 'Y'")
+  TextWindow.WriteLine("If you freaked out during the virus, it means that you like GREEN DAY.")
+  ThirdInput = TextWindow.Read()
+  Text.ConvertToUpperCase(ThirdInput)
+  If (Text.GetLength(ThirdInput) = 1) Then
+      If (ThirdInput = "Y") Then
+        StupidNo()
+      ElseIf (ThirdInput = "N") Then
+        End()
+      Else
+        TextWindow.WriteLine("Sorry, but your input: " + ThirdInput + " is neither 'Y' nor 'N'.")    
+        TextWindow.WriteLine("Please type in again. (if it is a no, then it means you like GREEN DAY.)")
+        Goto start
+      EndIf
+    ElseIf (Text.GetLength(ThirdInput) = 0) Then
+      TextWindow.WriteLine("Excuse me, put you have typed nothing.")
+      TextWindow.WriteLine("Please type in again.(if it is a no, then it means you like GREEN DAY)")
+      Goto start
+    Else
+      TextWindow.WriteLine("Sorry, put you have typed " + Text.GetLength(ThirdInput) + "characters! ")
+      TextWindow.WriteLine("Please type in again.")
+      Goto start
+    EndIf 
+  EndSub
+  Sub End
+    
+    If ((HateInput = 0) And (KnowInput = 0)) Then
+      GreenLine()
+      TextWindow.WriteLine("Thank you for supporting GREEN DAY! This computer loves you!")
+    ElseIf ((KnowInput = 1) And (HateInput = 0)) Then
+      GreenLine()
+      TextWindow.WriteLine("Although at first you have no idea what was GREEN DAY, however thanks for the thumbs-up to GREEN DAY")
+    ElseIf ((KnowInput = 0) And (HateInput = 1)) Then
+      RedLine()
+      TextWindow.WriteLine("You know what was GREEN DAY. How is it not possible to love the most respectable band ever?")
+    ElseIf ((KnowInput = 1) And (HateInput = 1)) Then
+      RedLine()
+      TextWindow.WriteLine("You didn't know what was GREEN DAY, and at the last you didn't even appreciate their great work.")
+      TextWindow.WriteLine("What a shame!")
+    Else
+      RedLine()
+      TextWindow.WriteLine("An error occured.")
+    EndIf
+  EndSub
+
+Sub RedLine
+  TextWindow.ForegroundColor = "red"
+  TextWindow.BackgroundColor = "darkred"
+EndSub
+
+Sub GreenLine
+  TextWindow.ForegroundColor = "green"
+  TextWindow.BackgroundColor = "darkgreen"
+EndSub
+  
