@@ -1,0 +1,112 @@
+music1 = Program.Directory + "\LastOfAmerGir.mp3"
+alert1 = Program.Directory + "\PullUp.mp3"
+image1 = Program.Directory + "\GreenDayPic2.jpg"
+image2 = Program.Directory + "\GreenDayPic3.jpg"
+TextWindow.Left = "0"
+TextWindow.Top = "0"
+TextWindow.Title = "GREEN DAY!"
+
+starte:
+TextWindow.Clear()
+TextWindow.WriteLine("How many seconds after do you want the alarm be?")
+TextWindow.WriteLine("Milliseconds will be rounded to a integer less than or equal to the inputted decimal number.")
+InitialSec = TextWindow.Read()
+InputSec = Math.Floor(InitialSec)
+Mili = Clock.ElapsedMilliseconds
+StartMilli = Text.GetSubText(Mili,1,10)
+TimesUpMilli = StartMilli + InputSec
+
+If InputSec < 0 Then
+  TextWindow.WriteLine("You have entered a value below 0 or is not a number. Please try again.")
+  Program.Delay(2000)
+  Goto starte
+ElseIf InputSec > 0 Then
+  Goto continue
+Else
+  TextWindow.WriteLine("Hey, your input: '" + InitialSec + "' is not a valid number. Please try again")
+  Program.Delay(2000)
+  Goto starte
+EndIf
+
+continue:
+GraphicsWindow.Title = "GREEN DAY!"
+GraphicsWindow.Height = Desktop.Height
+GraphicsWindow.Width = Desktop.Width / 2
+GraphicsWindow.Top = "0"
+GraphicsWindow.Left = Desktop.Width / 2
+GraphicsWindow.DrawResizedImage(image1, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height / 2)
+GraphicsWindow.DrawResizedImage(image2, 0, GraphicsWindow.Height / 2, GraphicsWindow.Width, GraphicsWindow.Height / 2)
+TextWindow.Title = "We love Green Day!"
+Sound.Play(music1)
+TextWindow.WriteLine("MUSIC PLAYING - LAST OF THE AMERICAN GIRLS")
+TextWindow.WriteLine("Which background picture do you want to set? ->>")
+TextWindow.WriteLine("For the top one, type '1'.")
+TextWindow.WriteLine("For the bottom one, type '2'.")
+While replay = 99999999
+  Sound.Play(music1)
+  replay = replay + 1
+EndWhile
+OneOrTwo = TextWindow.ReadNumber()
+
+If OneOrTwo = "1" Then
+  TextWindow.WriteLine("Changing in progress......")
+  GraphicsWindow.BrushColor = "black"
+  GraphicsWindow.FillRectangle(0, GraphicsWindow.Height / 2, GraphicsWindow.Width, GraphicsWindow.Height / 2)
+  Desktop.SetWallPaper(image1)
+  For flash = 0 To 3
+    GraphicsWindow.BrushColor = "black"
+    GraphicsWindow.FillRectangle(0, 0, GraphicsWindow.Width, GraphicsWindow.Height / 2)
+    Program.Delay(250)
+    GraphicsWindow.DrawResizedImage(image1, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height / 2)
+    Program.Delay(250)
+  EndFor
+  YesOrNo()
+ElseIf OneOrTwo = "2" Then
+  TextWindow.WriteLine("Changing in progress......")
+  GraphicsWindow.BrushColor = "black"
+  GraphicsWindow.FillRectangle(0, 0, GraphicsWindow.Width, GraphicsWindow.Height / 2)
+  Desktop.SetWallPaper(image2)
+  For flash = 0 To 3
+    GraphicsWindow.BrushColor = "black"
+    GraphicsWindow.FillRectangle(0, GraphicsWindow.Height / 2, GraphicsWindow.Width, GraphicsWindow.Height / 2)
+    Program.Delay(250)
+    GraphicsWindow.DrawResizedImage(image2, 0, GraphicsWindow.Height / 2, GraphicsWindow.Width, GraphicsWindow.Height / 2)
+    Program.Delay(250)
+  EndFor
+  YesOrNo()
+Else 
+  TextWindow.WriteLine("An eror occurred. Please try again.")
+  Program.Delay(1000)
+  Goto starte
+EndIf
+
+Sub YesOrNo
+  If TimesUpMilli < Text.GetSubText(Clock.ElapsedMilliseconds, 1, 10) Then
+    TextWindow.Clear()
+    TextWindow.WriteLine("Background has been changed to Background " + OneOrTwo + ".")
+    TextWindow.WriteLine("The alarm rang before you changed the background. Hit enter to close the program.")
+    alert()
+  ElseIf TimesUpMilli = Text.GetSubText(Clock.ElapsedMilliseconds, 1, 10) Then
+    TextWindow.Clear()
+    TextWindow.WriteLine("Background has been changed to Background " + OneOrTwo + ".")
+    TextWindow.WriteLine("Times Up! Program will close as long as you hit enter to close the program.")
+    alert()
+  Else   
+    TextWindow.Clear()
+    LeftSec = TimesUpMilli - Text.GetSubText(Clock.ElapsedMilliseconds, 1, 10)
+    TextWindow.WriteLine("Background has been changed to Background " + OneOrTwo + ".")
+    TextWindow.WriteLine("Wait until the alarm sounds after "+ LeftSec + " second(s) left!)")
+    Program.Delay(250)
+    YesOrNo()
+  EndIf
+EndSub
+
+Sub alert
+    Sound.Play(alert1)
+    Program.Delay(4000)
+    Sound.Stop(alert1)
+    cls = TextWindow.Read()
+    Program.End()
+    TextWindow.Hide()
+    GraphicsWindow.Hide()
+EndSub
