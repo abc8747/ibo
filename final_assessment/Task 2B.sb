@@ -1,0 +1,9 @@
+TextWindow.WriteLine("What is your name?")
+name = TextWindow.Read()
+TextWindow.WriteLine("How many lines do you want it to be displayed?")
+loop = TextWindow.Read()
+TextWindow.WriteLine("")'Just an empty line.
+For loopnum = 1 To loop
+  TextWindow.WriteLine(name)
+EndFor
+TextWindow.WriteLine("")'Just an empty line.

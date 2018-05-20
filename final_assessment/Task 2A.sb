@@ -1,0 +1,7 @@
+TextWindow.WriteLine("What is your name?")
+name = TextWindow.Read()
+TextWindow.WriteLine("")'Just an empty line.
+For loop = 1 To 10
+  TextWindow.WriteLine(name)
+EndFor
+TextWindow.WriteLine("")'Just an empty line.

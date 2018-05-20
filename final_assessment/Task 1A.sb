@@ -1,0 +1,6 @@
+TextWindow.WriteLine("What is the price of a can of coke?")
+cokep = TextWindow.ReadNumber()
+TextWindow.WriteLine("What is the price of a packet of crisps?")
+crispp = TextWindow.ReadNumber()
+totalp = cokep + crispp
+TextWindow.WriteLine("The total cost is: " + totalp)

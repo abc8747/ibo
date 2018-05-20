@@ -1,0 +1,16 @@
+start:
+TextWindow.Clear()
+TextWindow.WriteLine("How much pocket money do you have?")
+pocketm = TextWindow.ReadNumber()
+If pocketm < 0 Then
+  TextWindow.WriteLine("Pocket money cannot be negative. Please try again.")
+  Program.Delay(1000)
+  Goto start
+EndIf
+cokep = 60
+crispp = 50
+If pocketm >= (cokep + crispp) Then
+  TextWindow.WriteLine("YES, you have enough money to buy the items.")
+Else
+  TextWindow.WriteLine("NO, you do not have enough money to buy the items.")
+EndIf
