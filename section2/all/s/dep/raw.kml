@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>geog ia</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Line 1</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.159661,22.2848268,0
+            114.1586793,22.2832781,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>transect 1</name>
+        <description>IFC 1, General Post Office, Jardine House, Two Exchange Square</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1586793,22.2832781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 5</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.1586793,22.2832781,0
+            114.1579019,22.282004,0
+            114.1582077,22.2818352,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>transect 2</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1582077,22.2818352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 10</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.1582077,22.2818352,0
+            114.1586514,22.2817352,0
+            114.1589866,22.2816657,0
+            114.1588391,22.2810874,0
+            114.1586889,22.2808665,0
+            114.1589464,22.280792,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>transect 3</name>
+        <description><![CDATA[china construction bank, standard chartered, prince's building]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1589464,22.280792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 13</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.1589464,22.280792,0
+            114.1600202,22.2804934,0
+            114.1599103,22.279925,0
+            114.1600927,22.2799548,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>transect 4</name>
+        <description>bank of china, cheung kong, former french mission building, hsbc building</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1600927,22.2799548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 16</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.1600927,22.2799548,0
+            114.1605065,22.2799602,0
+            114.160984,22.2797815,0
+            114.1609411,22.2793446,0
+            114.1605334,22.2789475,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>transect 5</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1605334,22.2789475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 19</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.1605334,22.2789475,0
+            114.1599004,22.2784213,0
+            114.1594927,22.278054,0
+            114.1590313,22.2778306,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>transect 6</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1590313,22.2778306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Buildings</name>
+      <Placemark>
+        <name>Two Exchange Square</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1582259,22.2837792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jardine House</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1590615,22.2831909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>General Post Office</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1593699,22.2837644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>IFC 1</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.156896,22.2849119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chater House</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1584715,22.2821259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alexandra House</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1583296,22.2816887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Landmark Atrium</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1585238,22.2809145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>World Wide House</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1578638,22.2825367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>China Construction Bank</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1587841,22.280709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Prince's Building]]></name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1590013,22.2809304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Standard Chartered Bank Building</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1590375,22.2807309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Henry House</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1583113,22.2807548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HSBC Building</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1597649,22.2801248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former French Mission Building</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.159665,22.2795998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cheung Kong</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1604896,22.2798844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cheung Kong Park</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1603462,22.2791051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bank of China Tower</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.161329,22.2792248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Three Garden Road Central</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1605692,22.2785604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peak Tram</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1590744,22.2777415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>1_separated.kml</name>
+	<open>1</open>
+	<Style id="default">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://drive.google.com/uc?export=download&amp;id=1HKf6wZhvzLAK0MDCWPYKInNSEWEh9Cho</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="default0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<open>1</open>
+<Placemark>
+			<name>point 1</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1588168,22.2837065,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 2</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1579688,22.2821925,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 3</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1567779,22.2833987,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 4</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1556728,22.2847787,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 5</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1540903,22.2858706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>point 6</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1522704,22.2865713,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 7</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.150466,22.2869663,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 8</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1489274,22.2879435,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 9</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1472601,22.2875867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 10</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1453272,22.2877555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 11</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1433853,22.2878349,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 12</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1414259,22.2878672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 13</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1395376,22.2875893,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 14</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1376668,22.2870929,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 15</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1358322,22.2868348,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 16</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1339546,22.2872915,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 17</name>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.132281,22.2868249,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

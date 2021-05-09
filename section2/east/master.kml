@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="icon-1899-673AB7-nodesc-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-673AB7-nodesc-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-673AB7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-673AB7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-673AB7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>2IFC ( PLVI ) </name>
+      <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1591485,22.2852673,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1st 200m </name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1590279,22.2839363,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>2nd 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1580702,22.2823948,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3rd 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1593062,22.2816085,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>4th 200m </name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1612055,22.2811389,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.161761,22.2799529,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>6th 200m </name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1633549,22.2789387,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>7th 200m </name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1649824,22.2782086,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>8th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1668479,22.2779306,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>9th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1687949,22.2777034,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1707728,22.2775421,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1727617,22.2774961,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1747739,22.277758,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1768448,22.2779951,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1786006,22.2784689,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.180523,22.2790399,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1823514,22.2797143,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1842771,22.280077,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1861813,22.2796194,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1881863,22.279736,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>20th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1897242,22.2807653,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>21st 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1913236,22.2817962,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22nd 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1924697,22.2833109,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>23rd 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1928916,22.2850403,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>24th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1929073,22.2868113,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1937797,22.288518,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>26th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1951097,22.2899574,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>27th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1969383,22.2904305,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>28th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.1988508,22.2908632,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>29th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.2007606,22.2912567,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>30th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.2026074,22.2916489,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>31st 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.2046059,22.2919885,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>32nd 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.2065607,22.2919726,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>33rd 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.2083878,22.2913051,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>34th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.2093861,22.2898426,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>35th 200m</name>
+      <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          114.2100486,22.288039,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1st 200m 1st point </name>
+      <description>IFC mall </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1589481,22.2841386,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>2nd 200m 1st point </name>
+      <description>world wide house </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1578463,22.2825026,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>2nd 200m 2nd point</name>
+      <description>chater house </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1582045,22.2822147,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3rd 200m 1st point </name>
+      <description>mandarin oriental hotel </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.15933,22.2818101,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3rd 200m 2nd point</name>
+      <description><![CDATA[prince's building]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1592616,22.2814663,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>4th 200m 1st point </name>
+      <description>hong kong club building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1610691,22.2813258,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>4th 200m 2nd point</name>
+      <description>CCB tower</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1613943,22.2812098,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5th 200m 1st point </name>
+      <description>carpark ???</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1619889,22.2800659,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>6th 200m 1st point</name>
+      <description>lippo centre tower 1 </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1636239,22.2790659,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>6th 200m 2nd point </name>
+      <description>high court ???</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1633986,22.2786787,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>7th 200m 1st point </name>
+      <description>united centre </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1650315,22.2784264,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>7th 200m 2nd point</name>
+      <description>lane crawford </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1649162,22.27794,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>8th 200m 1st point </name>
+      <description>JW marriott hotel </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.166734,22.2777357,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>9th 200m 1st point </name>
+      <description>hennessy road post office </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1688698,22.2779636,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>9th 200m 2nd point </name>
+      <description>effectual building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1686519,22.2776649,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>9th 200m 3rd point </name>
+      <description>wing cheong building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1687719,22.2776289,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>9th 200m 4th point </name>
+      <description>methodist centre</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1689303,22.2776213,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10th 200m 1st point</name>
+      <description>sze bo building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1709253,22.2777335,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10th 200m 2nd point</name>
+      <description>kew green hotel </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1706329,22.2777894,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10th 200m 3rd point</name>
+      <description>sun kai mansion </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1705645,22.2775225,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10th 200m 4th point </name>
+      <description>shanghai industrial investment building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1708622,22.2774233,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11th 200m 1st point </name>
+      <description>china overseas building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.172833,22.2777199,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11th 200m 2nd point</name>
+      <description>hip sang building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1724696,22.2776802,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11th 200m 3rd point</name>
+      <description>southern centre</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1727555,22.2773139,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11th 200m 4th point </name>
+      <description>choice digital centre</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1729513,22.2773958,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12th 200m 1st point</name>
+      <description>Kwong tak building </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1749007,22.2779778,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12th 200m 2nd point </name>
+      <description>tung wah mansion </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1745815,22.2779331,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12th 200m 3rd point</name>
+      <description>hang seng wanchai building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1746271,22.2775881,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12th 200m 4th point</name>
+      <description>jade house</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1749865,22.2776551,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13th 200m 1st point</name>
+      <description>kwong wah building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1769781,22.2782022,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13th 200m 2nd point</name>
+      <description>chong hing building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.176608,22.2781563,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13th 200m 3rd point </name>
+      <description>emperor group centre</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1769208,22.2778344,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14th 200m 1st point</name>
+      <description>luen wo building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1787115,22.2787866,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14th 200m 2nd point</name>
+      <description>hennessy court </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1785814,22.2787531,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14th 200m 3rd point</name>
+      <description>ying lee mansion </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1784393,22.278737,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14th 200m 4th point </name>
+      <description>CNT tower</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1786588,22.2783648,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15th 200m 1st point</name>
+      <description>Boc wanchai commercial centre</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1805822,22.279348,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15th 200m 2nd point</name>
+      <description>eastern commercial centre </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1803998,22.2793368,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15th 200m 3rd point</name>
+      <description>opulent building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1805139,22.2789087,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15th 200m 4th point</name>
+      <description>yau kwong building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1807781,22.279039,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16th 200m 1st point</name>
+      <description>kin tak fung commercial building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.182229,22.2800392,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16th 200m 2nd point </name>
+      <description>kam cheung building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1823306,22.2795394,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16th 200m 3rd point</name>
+      <description>probably nam yip building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1824472,22.279594,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16th 200m 4th point</name>
+      <description>thai kong building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1826457,22.279697,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17th 200m 1st point</name>
+      <description>east point centre ( old wing )</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1842371,22.2803434,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17th 200m 2nd point</name>
+      <description>goldmark</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1842921,22.2799673,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18th 200m 1st point </name>
+      <description>V causeway bay </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1861576,22.2798593,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18th 200m 2nd point </name>
+      <description><![CDATA[mcdonald's building]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1859236,22.2795665,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18th 200m 3rd point</name>
+      <description>san kei tower </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1860403,22.2795256,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18th 200m 4th point </name>
+      <description>???</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1861301,22.279497,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19th 200m 1st point </name>
+      <description>catic plaza </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1881703,22.2795256,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19th 200m 2nd point</name>
+      <description>causeway tower</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1883433,22.2796299,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>21st 200m 1st point</name>
+      <description>TH bookstore ???</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1911641,22.2816958,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>21st 200m 2nd point </name>
+      <description><![CDATA[queen's college ???]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1914323,22.2816276,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22nd 200m 1st point</name>
+      <description>grand seaview heights </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1921695,22.2835038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22nd 200m 2nd point </name>
+      <description>park view mansion </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.192167,22.2832554,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22nd 200m 3rd point</name>
+      <description><![CDATA[l'hotel causeway bay harbour view hotel ]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1926824,22.2833709,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>23rd 200m 1st point</name>
+      <description>the foot room??</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1927534,22.2852172,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>23rd 200m 2nd point</name>
+      <description>???</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1927239,22.2851105,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>23rd 200m 3rd point</name>
+      <description>sun ying building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1926958,22.2850063,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>23rd 200m 4th point</name>
+      <description>belilios public school ???</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1931747,22.2849864,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>24th 200m 1st point </name>
+      <description>sing pao building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1927389,22.2869778,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>24th 200m 2nd point</name>
+      <description>kin ga building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1926986,22.2868264,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>24th 200m 3rd point</name>
+      <description>KP tower</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1927187,22.2867023,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25th 200m 1st point </name>
+      <description>chung nam mansion </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1935488,22.2887856,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25th 200m 2nd point</name>
+      <description><![CDATA[king's lodge]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1935408,22.2885163,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25th 200m 3rd point </name>
+      <description>fortress metro tower block D </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1940292,22.2884801,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>26th 200m 1st point</name>
+      <description>nam tin building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1949204,22.2901311,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>26th 200m 2nd point</name>
+      <description>north point centre </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1951414,22.2897362,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>26th 200m 3rd point </name>
+      <description>continental mansion </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1953801,22.2899893,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>27th 200m 1st point</name>
+      <description>hang seng north point building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1970304,22.2906439,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>27th 200m 2nd point</name>
+      <description>mido apartments </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1968614,22.2902579,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>27th 200m 3rd point</name>
+      <description>tsing wan building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1970223,22.2903386,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>27th 200m 4th point</name>
+      <description>two chinachem exchange square </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1971932,22.2904035,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>28th 200m 1st point</name>
+      <description>hang lung bank eastern branch building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.198702,22.2909778,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>28th 200m 2nd point</name>
+      <description>ming yuen court</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1986684,22.2906944,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>28th 200m 3rd point </name>
+      <description>everwin building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1989271,22.2907132,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>28th 200m 4th point</name>
+      <description>metropole building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.1990572,22.2908038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>29th 200m 1st point</name>
+      <description>wah hing building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2009536,22.2914643,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>29th 200m 2nd point </name>
+      <description>han palace building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2007674,22.2915425,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>29th 200m 3rd point </name>
+      <description>chu kee building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2006615,22.2914978,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>29th 200m 4th point </name>
+      <description>roca centre block 2 </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2008135,22.2910693,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>30th 200m 1st point </name>
+      <description><![CDATA[chan's creative school ???]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2027494,22.291849,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>30th 200m 2nd point</name>
+      <description>north point telephone exchange</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2025455,22.2918838,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>30th 200m 3rd point</name>
+      <description>north point industrial building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2023551,22.2917696,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>30th 200m 4th point</name>
+      <description>NSK centre</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2025956,22.2913887,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>31st 200m 1st point </name>
+      <description>healthy gardens block C </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2044214,22.291827,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>31st 200m 2nd point </name>
+      <description>ruby court </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2047205,22.2918692,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>32nd 200m 1st point </name>
+      <description>???</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2067776,22.2921513,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>32nd 200m 2nd point</name>
+      <description>???</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.20646,22.2922293,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>32nd 200m 3rd point</name>
+      <description>healthy village phase 2 block 2 </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2064523,22.291759,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>32nd 200m 4th point </name>
+      <description>north point mansion </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2067688,22.2918273,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>33rd 200m 1st point</name>
+      <description>harbour plaza hotel </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2085028,22.2915203,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>33rd 200m 2nd point </name>
+      <description>AIA hk tower</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.20802,22.2913342,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>33rd 200m 3rd point</name>
+      <description>model housing estate block E mansion </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2082596,22.2911891,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>33rd 200m 4th point </name>
+      <description>model housing estate block D man ning house</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2084729,22.2911059,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>34th 200m 1st point</name>
+      <description>lai wah mansion </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.209535,22.2901061,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>34th 200m 2nd point </name>
+      <description>lido apartments </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2092667,22.2896544,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>34th 200m 3rd point</name>
+      <description>kwan ho fung ???</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2092466,22.2898093,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>34th 200m 4th point</name>
+      <description>mansion building</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2091957,22.2899855,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>35th 200m 1st point</name>
+      <description>tor po mansion </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.210277,22.2880779,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>35th 200m 2nd point </name>
+      <description>quarry bay mtr station </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          114.2098117,22.2879464,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
