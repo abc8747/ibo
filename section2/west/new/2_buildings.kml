@@ -1,0 +1,486 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <visibility>1</visibility>
+    <Folder>
+      <name>0</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W0NE - GENERAL POST OFFICE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.159476,22.283557</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W0SE - JARDINE HSE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.159146,22.282997</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W0SW - TWO EXCHANGE SQUARE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.158253,22.283900</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W0NW - IFC MALL</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.158049,22.284676</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>1</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W1SE - CHATER HOUSE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.158428,22.282220</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W1NW - WORLD WIDE HSE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.157768,22.282527</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>2</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W2NE - THE CHINESE BANK BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.156778,22.283674</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W2SE - HIP SHING HONG CENTRE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.156866,22.283448</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W2SW - TUNG MING BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.156643,22.283168</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W2NW - PROSPEROUS BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.156449,22.283349</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>3</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W3NE - DAH SING LIFE BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.155779,22.284793</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W3SE - HANG SENG BANK HEADQUARTERS' BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.156235,22.284604</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W3SW - CENTRAL 88</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.155410,22.284676</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W3NW - HUNG TAK BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.155206,22.284884</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>4</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W4NE - NAN FUNG TOWER</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.154391,22.285976</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W4SW - CHEUNGS BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.153848,22.285633</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W4NW - LI PO CHUN CHAMBERS</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.153993,22.286283</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>5</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W5NE - BLISSFUL BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.152334,22.286680</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W5SE - ?</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.152363,22.286283</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W5SW - TUNG HIP COMMERCIAL BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.152178,22.286292</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W5NW - TUNG NING BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.152246,22.286834</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>6</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W6NE - KAI TAK COMMERCIAL BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.150674,22.287231</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W6SE - FWD FINANCIAL CENTRE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.150636,22.286653</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W6SW - WEST EXCHANGE TOWER</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.150199,22.286725</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W6NW - WESTERN MARKET</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.150364,22.287303</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>7</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W7SE - SEAVIEW COMMERCIAL BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.149189,22.287691</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W7SW - CONNAUGHT HARBOURFRONT HOUSE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.148685,22.287800</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>8</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W8NE - ?</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.147404,22.288043</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W8SE - KINGDOM POWER COMMERCIAL BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.147297,22.287438</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W8SW - WESTERN CENTRE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.146938,22.287438</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W8NW - SING KUI COMMERCIAL BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.146967,22.287881</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>9</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W9NE - CHIU CHOW ASSOCIATION BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.145541,22.287989</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W9SE - YU CHU LAM BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.145434,22.287645</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W9SW - AVA 128</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.144988,22.287636</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W9NW - LUCKY COMMERCIAL CENTRE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.144997,22.288016</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>10</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W10NE - TAK TUNG HOUSE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.143629,22.288051</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W10SE - LUEN TAK BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.143493,22.287699</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W10SW - WAI TAK BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.143095,22.287708</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W10NW - WING FAT MANSION</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.143144,22.288069</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>11</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W11NE - TAK MAY HOUSE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.141543,22.288132</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W11SE - TUNG CHE COMMERCIAL CENTRE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.141650,22.287762</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W11SW - CHING TAK BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.141339,22.287753</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W11NW - WAH LAP HOUSE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.141281,22.288132</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>12</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W12NE - TIN HING MANSION</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.139524,22.287852</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W12SE - ?</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.139583,22.287509</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W12SW - MERIT COURT</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.139398,22.287346</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W12NW - BOHEMIAN HOUSE</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.139039,22.287698</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>13</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W13NE - ?</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.137885,22.287553</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W13SE - CHUNG AH BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.137759,22.286985</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W13SW - LUCKY BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.137526,22.286885</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W13NW - UPTON</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.137147,22.287481</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>14</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W14NE - LUN FUNG COURT</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.136216,22.286939</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W14SE - ?</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.136167,22.286506</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W14SW - PACIFIC PLAZA</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.135624,22.286587</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W14NW - HONG KONG PLAZA</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.135915,22.287101</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>15</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W15SE - ?</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.133887,22.286767</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W15SW - HONG KONG INDUSTRIAL BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.133450,22.286965</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>16</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>W16NE - WO FAT BUILDING</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.132693,22.286785</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W16SE - SUM WAY MANSION</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.132499,22.286477</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
