@@ -1,3 +1,4 @@
+from os import name
 import requests
 import googlemaps
 from pyproj import Transformer, Proj
@@ -28,42 +29,31 @@ class Coordinate:
 
 
 class Location:
-    def __init__(self, locationid, description=None, address=None, lat=None, lon=None, number=None):
+    csvheaders = ['locationid', 'name', 'query', 'number', 'address', 'lat', 'lon', 'placeid']
+
+    def __init__(self, locationid, name, query, number, address=None, lat=None, lon=None, placeid=None):
         self.locationid = int(locationid)
-        self.description = description
+        self.name = name
+        self.query = query
+        self.number = int(number)
+
         self.address = address
         self.lat = float(lat) if lat else None
         self.lon = float(lon) if lon else None
-        self.number = int(number) if number else None
-        self.geocode_result = None
+        self.placeid = placeid
 
-    def geocode(self, querydata:str):
-        self.geocode_result = gmaps.geocode(querydata)
-    
-    # def getLocations(self, querydata:str):
-    #     self._locations = requests.get(f'https://www.als.ogcio.gov.hk/lookup?q={querydata}', headers={
-    #         'Accept': 'application/json'
-    #     }).json()
-    #     self._locations = self._locations['SuggestedAddress'] if self._locations else []
-    #     return self
-    
-    # def setLocation(self, index:int=None):
-    #     if index is None:
-    #         for index, l in enumerate(self._locations):
-    #             if l["Address"]["PremisesAddress"]["EngPremisesAddress"]["EngDistrict"]["DcDistrict"] == 'WONG TAI SIN DISTRICT':
-    #                 break
-    #         else:
-    #             index = 0
+    def geocode(self):
+        try:
+            self._geocode_result = gmaps.geocode(self.query)[0]
 
-    #     selected = self._locations[index]
-    #     if not self.address:
-    #         street = selected["Address"]["PremisesAddress"]["EngPremisesAddress"]["EngStreet"]
-    #         self.address = f'{street["BuildingNoFrom"]} {street["StreetName"]}'
-    #     if not self.description:
-    #         self.description = selected["Address"]["PremisesAddress"]["EngPremisesAddress"]["BuildingName"]
-    #     if not self.lat:
-    #         self.lat = float(selected["Address"]["PremisesAddress"]["GeospatialInformation"]["Latitude"])
-    #     if not self.lon:
-    #         self.lon = float(selected["Address"]["PremisesAddress"]["GeospatialInformation"]["Longitude"])
-        
-    #     return self
+            self.address = self._geocode_result["formatted_address"]
+            self.lat = self._geocode_result["geometry"]["location"]["lat"]
+            self.lon = self._geocode_result["geometry"]["location"]["lng"]
+            self.placeid = self._geocode_result["place_id"]
+        except:
+            pass
+
+        return self
+    
+    def genRow(self):
+        return [self.locationid, self.name, self.query, self.number, self.address, self.lat, self.lon, self.placeid]
