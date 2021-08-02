@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Elderly healthcare facilities in Wong Tai Sin district</name>
+    <description/>
+    <Style id="icon-1603-9C27B0-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1624-F9A825-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1624-F9A825-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1624-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1624-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1624-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1735-558B2F-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1735-558B2F-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1735-558B2F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1735-558B2F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1735-558B2F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1807-E65100-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1807-E65100-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1807-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1807-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1807-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Elderly Day care centre</name>
+      <Placemark>
+        <name>H.K.S.K.H. Wong Tai Sin District Elderly Community Centre - Lung Tat Point</name>
+        <styleUrl>#icon-1735-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.195314,22.340133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chi Lin Day Care Centre for the Elderly</name>
+        <styleUrl>#icon-1735-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.205845,22.340351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rhythm Garden Lutheran Centre for the Elderly</name>
+        <styleUrl>#icon-1735-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.202709,22.336423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hong Kong Sheng Kung Hui Tsz Wan Shan Day Care Centre for the Elderly</name>
+        <styleUrl>#icon-1735-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.199997,22.346592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ho Hing Health Care Services Centre</name>
+        <styleUrl>#icon-1735-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.203856,22.348163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Hospitals</name>
+      <Placemark>
+        <name>東華三院黄大仙醫院</name>
+        <styleUrl>#icon-1807-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1962518,22.3467269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Hong Kong Buddhist Hospital</name>
+        <styleUrl>#icon-1807-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1887213,22.3356195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Our Lady of Maryknoll Hospital</name>
+        <styleUrl>#icon-1807-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1966145,22.3456548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Convalescent homes</name>
+      <Placemark>
+        <name>Oasis Nursing Home</name>
+        <styleUrl>#icon-1735-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2005514,22.3463425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yan King Home of Aged</name>
+        <styleUrl>#icon-1735-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.194516,22.334672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheng Kung Hui Nursing Home</name>
+        <styleUrl>#icon-1735-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1977189,22.3400524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pine Care Group Limited</name>
+        <styleUrl>#icon-1735-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.202361,22.347007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tung Wah Group of Hospitals Ho Tung Home for the Elderly</name>
+        <styleUrl>#icon-1735-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2082004,22.3427798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Healthcare clinics</name>
+      <Placemark>
+        <name>譚志威醫生 (醫健醫務中心) MediHealth Medical Centre Limited</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.194494,22.338217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsz Wan Shan Wu York Yu Student Health Service Centre</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.197498,22.346917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wong Tai Sin Family Medical Centre</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1930344,22.3419544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Family Planning Association of Hong Kong Wong Tai Sin Clinic</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1929798,22.3412457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sik Sik Yuen Herbal Clinic</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1940353,22.3425535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Robert Black General Out-Patient Clinic</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1956068,22.3324934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tang Kuen Yan, Alfred Doctors</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.196866,22.342033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Human Health</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1930346,22.34205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Health Medical Centre</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.193265,22.345185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wang Tau Hom Jockey Club General Out-Patient Clinic</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.185368,22.339162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Kowloon General Out-Patient Clinic</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2078033,22.3395928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wu York Yu General Out-Patient Clinic</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1977866,22.3476286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Residential places in Wong Tai sin</name>
+      <Placemark>
+        <name>Upper Wong Tai Sin Estate</name>
+        <styleUrl>#icon-1603-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1914446,22.3425014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lower Wong Tai Sin Estate Lung Cheong House</name>
+        <styleUrl>#icon-1603-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1911563,22.3401684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lower Wong Tai Sin Estate Lung Moon House</name>
+        <styleUrl>#icon-1603-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.192478,22.338538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lower Wong Tai Sin Estate Lung Hing House</name>
+        <styleUrl>#icon-1603-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.192837,22.340515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>龍滿樓</name>
+        <styleUrl>#icon-1603-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1926055,22.3384093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>龍福樓</name>
+        <styleUrl>#icon-1603-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1914758,22.3395128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Tai Court</name>
+        <styleUrl>#icon-1603-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2004355,22.3350817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lok Fu Estate Lok Tai House</name>
+        <styleUrl>#icon-1603-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.186469,22.337084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wong Tai Sin District Office</name>
+        <styleUrl>#icon-1603-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.192144,22.341973,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chuk Yuen South Estate Nga Yuen House</name>
+        <styleUrl>#icon-1603-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.194701,22.344714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
