@@ -1,27 +1,39 @@
 import requests
 
 class Location:
-    def __init__(self, description=None, address=None, lat=None, lon=None):
+    def __init__(self, locationid:int, description:str=None, address:str=None, lat:float=None, lon:float=None, number:int=None):
+        self.locationid = int(locationid)
         self.description = description
         self.address = address
-        self.lat = lat
-        self.lon = lon
-        self.locations = []
+        self.lat = float(lat) if lat else None
+        self.lon = float(lon) if lon else None
+        self.number = int(number) if number else None
+        self._locations = []
     
-    def getLocations(self, data):
-        self.locations = requests.get(f'https://www.als.ogcio.gov.hk/lookup?q={data}', headers={
+    def getLocations(self, querydata:str):
+        self._locations = requests.get(f'https://www.als.ogcio.gov.hk/lookup?q={querydata}', headers={
             'Accept': 'application/json'
-        }).json()['SuggestedAddress']
-        return self
-
-    def printLocations(self):
-        print(self.locations)
+        }).json()
+        self._locations = self._locations['SuggestedAddress'] if self._locations else []
         return self
     
-    def setLocation(self, index:int):
-        selected = self.locations[index]
-        if not self.address:
-            street = selected["Address"]["EngPremisesAddress"]["EngStreet"]
-            self.address = f'{street["BuildingNoFrom"]} {street["StreetName"]}'
+    def setLocation(self, index:int=None):
+        if index is None:
+            for index, l in enumerate(self._locations):
+                if l["Address"]["PremisesAddress"]["EngPremisesAddress"]["EngDistrict"]["DcDistrict"] == 'WONG TAI SIN DISTRICT':
+                    break
+            else:
+                index = 0
 
+        selected = self._locations[index]
+        if not self.address:
+            street = selected["Address"]["PremisesAddress"]["EngPremisesAddress"]["EngStreet"]
+            self.address = f'{street["BuildingNoFrom"]} {street["StreetName"]}'
+        if not self.description:
+            self.description = selected["Address"]["PremisesAddress"]["EngPremisesAddress"]["BuildingName"]
+        if not self.lat:
+            self.lat = float(selected["Address"]["PremisesAddress"]["GeospatialInformation"]["Latitude"])
+        if not self.lon:
+            self.lon = float(selected["Address"]["PremisesAddress"]["GeospatialInformation"]["Longitude"])
+        
         return self
