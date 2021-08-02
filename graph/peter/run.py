@@ -4,7 +4,7 @@ from rich import print, inspect
 from rich.progress import track
 
 # get missing addresses
-for cat in (1, 2, 3):
+for cat in [1]:
     newdata = []
     with open(f'cat{cat}/raw.csv', 'r', encoding='utf-8-sig', newline='') as f:
         data = list(csv.reader(f))
@@ -15,17 +15,19 @@ for cat in (1, 2, 3):
                 if r[2] == '':
                     # address is missing, so search by name
                     location = common.Location(locationid=r[0], description=r[1], number=r[3])
-                    location.getLocations(r[1]).setLocation()
+                    location.geocode(r[1])
+                    # location.getLocations(r[1]).setLocation()
                 else:
-                    _addr = ", ".join(r[2].split(", ")[-4:])
-                    location = common.Location(locationid=r[0], description=r[1], address=_addr, number=r[3])
-                    location.getLocations(r[2]).setLocation()
+                    # _addr = ", ".join(r[2].split(", ")[-4:])
+                    location = common.Location(locationid=r[0], description=r[1], address=r[2], number=r[3])
+                    location.geocode(r[2])
+                    # location.getLocations(r[2]).setLocation()
+                inspect(location, private=False)
                 newdata.append([location.locationid, location.description, location.address, location.number, location.lat, location.lon])
-                print(cat, location.locationid)
             except:
                 r.extend(['', ''])
                 newdata.append(r)
-            # inspect(location, private=False)
+            break
 
     print(newdata)
 
