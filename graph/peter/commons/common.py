@@ -122,12 +122,12 @@ class Building:
         self.coords = Coordinate(x=x, y=y)
 
 class Sample:
-    csvheaders = ['sampleid','x','y']
+    csvheaders = ['sampleid','x','y','accessibility']
 
-    def __init__(self, sampleid, x, y):
+    def __init__(self, sampleid, x, y, accessibility=0):
         self.sampleid = sampleid
         self.coords = Coordinate(x=x, y=y)
-        self.accessibility = 0
+        self.accessibility = accessibility
 
     def genRow(self):
         return [self.sampleid, self.coords.x, self.coords.y, self.accessibility]
@@ -157,9 +157,3 @@ class SFCA:
             if int(sample.sampleid) % 10 == 0:
                 print(sample.sampleid)
         return self
-
-# def f(D_ij, D_0):
-#     if D_ij < D_0:
-#         return (math.exp(-0.5*(math.pow((D_ij/D_0), 2))) - math.exp(-0.5)) / (1-math.exp(-0.5))
-#     else:
-#         return 0
