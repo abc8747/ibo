@@ -1,0 +1,5 @@
+Observed mean distance: 177.08937950424
+Expected mean distance: 219.41842088254
+Nearest neighbour index: 0.80708528843
+Number of points: 28
+Z-Score: -1.95287860065
