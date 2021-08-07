@@ -3,6 +3,7 @@ from pyproj import Transformer, Proj
 from rich import print, inspect
 from rich.progress import track
 import math
+from .models import *
 
 gmaps = googlemaps.Client(key='AIzaSyDkvo7O65VGJZeQ-EneJZjIdOMMKC8yGv4')
 hk80_to_wgs84 = Transformer.from_crs("epsg:2326", "epsg:4326").transform

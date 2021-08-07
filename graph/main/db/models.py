@@ -6,10 +6,11 @@ import csv
 from rich import print, inspect
 
 Base = declarative_base()
-engine = create_engine('sqlite:///data.db', echo=False)
+engine = create_engine('sqlite:///db/data.db', echo=False)
 
 class Sample(Base):
     __tablename__ = "samples"
+    __csvHeaders__ = ("sample_id", 'x', 'y', "accessibility")
 
     sample_id = Column('sample_id', String, primary_key=True, index=True)
     x = Column('x', Float)
