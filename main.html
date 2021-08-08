@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Occupancy Logger</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Halfmoon/1.1.1/css/halfmoon.min.css" integrity="sha512-Kaju/JzlErKhC47smofkXAdSkvILovmvh2nnok6rgN79oB3Co/T7Pm7Ns8dcpNEN3VTVZDw2ilrUDByzInEabg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Halfmoon/1.1.1/js/halfmoon.min.js" integrity="sha512-8fN/MQrHBCMmkx2t4QwGODGHwQf8VxCeNwNkJz0gjt5JrlUfJ5zNlMr9lrzhnl7DSN+5E16YmMHnfomnQmvSoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+</head>
+<body class="dark-mode with-custom-webkit-scrollbars with-custom-css-scrollbars">
+    <div class="page-wrapper with-navbar with-transitions">
+        <div class="sticky-alerts"></div>
+        <nav class="navbar">
+            <a class="navbar-brand ml-10 ml-sm-15">
+                Occupancy Logger
+                <span class="badge font-size-12 text-monospace px-5 px-sm-10">
+                    v1.0
+                </span>
+            </a>
+            <div class="navbar-content ml-auto">
+                <button class="btn btn-action mr-5" type="button" onclick="halfmoon.toggleDarkMode();toggleMapInvert()" aria-label="Toggle dark mode">
+                    <i class="fa fa-moon-o" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="content-wrapper">
+            <div class="container-fluid h-full w-full">
+                <div class="row d-flex justify-content-center font-size-20">
+                    <div id="timer">0 s</div>
+                </div>
+                <div class="row">
+                    <input type="text" class="form-control" placeholder="Location Id" id="locationid">
+                </div>
+                <div class="row">
+                    <div class="col s6">
+                        <button id="start" class="btn btn-success w-full" type="button" disabled="disabled">Start</button>
+                    </div>
+                    <div class="col s6">
+                        <button id="stop" class="btn btn-danger w-full" type="button" disabled="disabled">Stop & Save</button>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div id="clicker" class="w-full d-flex justify-content-center align-items-center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript' src='script.js'></script>
+</body>
+</html>

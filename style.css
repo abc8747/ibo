@@ -1,0 +1,12 @@
+.container-fluid {
+    overflow: hidden;
+}
+
+#clicker {
+    height: 100vh;
+    background-color: #424242;
+}
+
+#clicker.active {
+    background-color: #0277bd;
+}
