@@ -1,3 +1,8 @@
+V1: pcu/hr/100GFA
+V2: pcu standards
+
+_______
+
 V1 Table 2: Traffic rates for non-residential developments ()
             P108: buildings are required to not exceed 5% of its minimum requirements, or 50 parking spaces.
 

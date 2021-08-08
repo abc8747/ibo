@@ -112,10 +112,10 @@ with Session(engine) as session:
             session.bulk_save_objects([PopulationMatrix(**{
                 "origin_id": d[0],
                 "destination_id": d[1],
-                "entry_cost": float(d[2]),
-                "network_cost": float(d[3]),
-                "exit_cost": float(d[4]),
-                "total_cost": float(d[5]),
+                "entry_cost": float(d[2]) if d[2] else None,
+                "network_cost": float(d[3]) if d[2] else None,
+                "exit_cost": float(d[4]) if d[2] else None,
+                "total_cost": float(d[5]) if d[2] else None,
             }) for d in data])
 
     if not session.query(Carpark).count():
@@ -140,10 +140,10 @@ with Session(engine) as session:
             session.bulk_save_objects([CarparkMatrix(**{
                 "origin_id": d[0],
                 "destination_id": d[1],
-                "entry_cost": float(d[2]),
-                "network_cost": float(d[3]),
-                "exit_cost": float(d[4]),
-                "total_cost": float(d[5]),
+                "entry_cost": float(d[2]) if d[2] else None,
+                "network_cost": float(d[3]) if d[2] else None,
+                "exit_cost": float(d[4]) if d[2] else None,
+                "total_cost": float(d[5]) if d[2] else None,
             }) for d in data])
 
     session.commit()

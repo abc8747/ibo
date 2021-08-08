@@ -1,14 +1,14 @@
 carparkid,descriptio,source,gfa,type,amount,x,y
 "0",The Quayside,Est,"139837",o,"584",840105.814,819684.895
-"1",One Bay East,Est,"147965",o,"616",840135.202,819606.078
-"2",NEO,Official,"86996",o,"382",840299.225,819443.336
-"3",MG Tower,Est,"71018",o,"309",840435.753,819296.647
-"4",Seaview Centre,Est,"21135",o,"109",840482.924,819250.944
-"5",China Aerospace Centre,Est,"20231",o,"105",840486.993,819246.774
-"6",D.J. Securities Building,Est,"15713",o,"87",840633.863,819064.961
+"1",One Bay East,Official,"147965",o,"400",840139.173,819610.760
+"2",NEO,Official,"86996",o,"382",840306.446,819448.387
+"3",MG Tower,Est,"71018",o,"309",840441.239,819302.176
+"4",Seaview Centre,Est,"21135",o,"109",840488.355,819257.439
+"5",China Aerospace Centre,Est,"20231",o,"105",840492.424,819253.269
+"6",D.J. Securities Building,Est,"15713",o,"87",840636.483,819069.368
 "7",Kwun Tong Harbour Plaza,Est,"33044",o,"157",840830.145,818915.834
 "8",Two Harbour Square,Est,"67077",o,"293",840833.450,818918.530
-"9",Pioneer Place,Est,"27317",o,"134",840915.768,818910.484
+"9",Pioneer Place,Est,"27317",o,"134",840921.037,818914.571
 "10",Westley Square,Est,"48298",o,"218",841083.442,818907.389
 "11",ELI PARKING @Lemmi Centre,Est,"21194",o,"109",841077.795,818913.072
 "12",Benson Tower,Est,"15299",o,"86",841113.161,818871.352
@@ -33,7 +33,7 @@ carparkid,descriptio,source,gfa,type,amount,x,y
 "31",South Asia Commercial Building,Est,"13974",o,"79",841049.342,819208.282
 "32",Speedy Industrial Building,Est,"15104",i,"22",841168.276,819164.555
 "33",Entreport Centre,Est,"14229",o,"81",841181.132,819149.124
-"34",Futura Plaza,Est,"35762",o,"168",841144.316,819194.395
+"34",Futura Plaza,Official,"35762",o,"63",841144.316,819194.395
 "35",Wing Cheung Industrial Building,Est,"9023",i,"13",841131.048,819210.285
 "36",Fully Industrial Building,Est,"6877",i,"10",841111.324,819278.217
 "37",Camel Paint Building Blocks 1 & 2/C,Est,"17518",o,"95",841228.887,819085.243
@@ -42,14 +42,14 @@ carparkid,descriptio,source,gfa,type,amount,x,y
 "40",TG Place,Est,"47011",o,"213",841335.210,819072.538
 "41",Kwun Tong Plaza,Est,"29518",o,"143",841312.879,819099.328
 "42",Legend Tower,Est,"69658",o,"303",841339.187,819067.861
-"43",apm,Est,"321206",o,"1309",841242.479,819304.697
-"44",One Pacific Centre,Est,"39341",o,"182",841186.205,819333.020
-"45",Kwun Tong View,Est,"16511",o,"91",841170.730,819339.652
+"43",apm,Official,"321206",o,"268",841242.479,819304.697
+"44",One Pacific Centre,Est,"39341",o,"182",841185.569,819326.326
+"45",Kwun Tong View,Est,"16511",o,"91",841168.957,819335.358
 "46",Assun Pacific Centre,Est,"7941",o,"45",840839.656,819035.709
-"47",Sitoy Tower,Est,"2936",o,"16",840754.668,819106.652
-"48",China Trade Centre,Est,"11557",o,"66",840514.655,819364.649
-"49",Pan Asia Centre,Est,"6846",o,"39",840490.458,819387.888
-"50",Draco Industrial Building,Est,"6224",i,"9",840474.549,819486.365
+"47",Sitoy Tower,Est,"2936",o,"16",840748.414,819100.982
+"48",China Trade Centre,Est,"11557",o,"66",840510.217,819360.000
+"49",Pan Asia Centre,Est,"6846",o,"39",840493.829,819392.128
+"50",Draco Industrial Building,Est,"6224",i,"9",840479.565,819482.410
 "51",Bunhoi Group Centre,Est,"2446",o,"13",840261.389,819695.936
 "52",International Trade Tower,Est,"96614",o,"411",840405.494,819502.564
 "53",NO. 1 Hung To Road,Est,"94070",o,"401",840548.244,819467.720
@@ -57,14 +57,16 @@ carparkid,descriptio,source,gfa,type,amount,x,y
 "55",Prosperity Center Car Park,Est,"37339",o,"174",840642.673,819459.380
 "56",Millennium City 2 & 3,Est,"43967",o,"200",840696.347,819470.754
 "57",Montery Plaza,Est,"16266",o,"90",840745.900,819420.228
-"58",Fullerton Centre,Est,"15228",o,"85",840640.835,819377.258
-"59",Infotech Centre,Est,"15696",o,"87",840658.238,819360.242
-"60",Remington Centre,Est,"15414",o,"86",840684.504,819334.655
-"61",Westin Centre,Est,"29984",o,"144",840664.857,819353.815
+"58",Fullerton Centre,Est,"15228",o,"85",840643.208,819379.710
+"59",Infotech Centre,Est,"15696",o,"87",840660.388,819362.589
+"60",Remington Centre,Est,"15414",o,"86",840686.881,819337.644
+"61",Westin Centre,Est,"29984",o,"144",840662.331,819351.136
 "62",Billion Trade Centre,Est,"15653",o,"87",840743.557,819277.277
 "63",Wah Hung Centre,Est,"10822",o,"61",840809.035,819212.881
 "64",Paul Y. Centre (Wilson Parking),Est,"21524",o,"111",840871.540,819151.324
 "65",Millennium City 1 (Wilson Parking),Est,"188966",o,"780",840829.070,819361.039
 "66",Millennium City 6 (Wilson Parking),Est,"93047",o,"397",840907.461,819328.776
-"67",Landmark East Carpark,Est,"32673",o,"155",840945.644,819313.191
+"67",Landmark East Carpark,Official,"32673",o,"454",840945.644,819313.191
 "68",How Ming Factory Building,Est,"22141",i,"32",841035.852,819277.515
+"69",King Palace Plaza,Est,"42610",o,"196",841293.000,818804.877
+"70",Manulife Financial Centre,Est,"106275",o,"451",841032.755,818786.357

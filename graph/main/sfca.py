@@ -2,12 +2,9 @@ import csv
 
 from sqlalchemy.sql.operators import comma_op
 from db import common
-# from db import models
 
 from rich import print, inspect
 from rich.progress import track
-
-from db.models import Population
 
 with common.Session(common.engine) as session:
     samples = session.query(common.Sample).all()
