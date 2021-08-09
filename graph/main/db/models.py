@@ -4,21 +4,24 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
 import csv
 from rich import print, inspect
+from sqlalchemy.sql.expression import distinct
 
 Base = declarative_base()
 engine = create_engine('sqlite:///db/data.db', echo=False)
 
 class Sample(Base):
     __tablename__ = "samples"
-    __csvHeaders__ = ("sample_id", 'x', 'y', "accessibility")
+    __csvHeaders__ = ("sample_id", 'x', 'y', 'routeid', 'distance', "accessibility")
 
     sample_id = Column('sample_id', String, primary_key=True, index=True)
     x = Column('x', Float)
     y = Column('y', Float)
+    routeid = Column('routeid', Integer)
+    distance = Column('distance', Integer)
     accessibility = Column('accessibility', Float)
 
     def genRow(self):
-        return (self.sample_id, self.x, self.y, self.accessibility)
+        return (self.sample_id, self.x, self.y, self.routeid, self.distance, self.accessibility)
 
 class Population(Base):
     __tablename__ = "population"
@@ -89,6 +92,8 @@ with Session(engine) as session:
                 "sample_id": d[0],
                 "x": d[1],
                 "y": d[2],
+                "routeid": d[3],
+                "distance": d[4],
             }) for d in data])
 
     if not session.query(Population).count():
