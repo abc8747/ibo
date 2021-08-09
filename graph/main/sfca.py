@@ -1,6 +1,4 @@
 import csv
-
-from sqlalchemy.sql.operators import comma_op
 from db import common
 
 from rich import print, inspect
