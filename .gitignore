@@ -1,4 +1,3 @@
-gis/*.gdb
-gis/building_detailed.*
 .venv
 occupancy-logger
+*/*:Zone.Identifier
