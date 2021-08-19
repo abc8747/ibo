@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head id="j_id_5"><link href="/bd_hadbiex/javax.faces.resource/theme.css.jsf?ln=primefaces-aristo" rel="stylesheet" type="text/css"/><link href="/bd_hadbiex/javax.faces.resource/layout1.css.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=css" rel="stylesheet" type="text/css"/><link href="/bd_hadbiex/javax.faces.resource/layout2.css.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=css" rel="stylesheet" type="text/css"/><link href="/bd_hadbiex/javax.faces.resource/layout3.css.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=css" rel="stylesheet" type="text/css"/><link href="/bd_hadbiex/javax.faces.resource/layout4.css.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=css" rel="stylesheet" type="text/css"/><link href="/bd_hadbiex/javax.faces.resource/primeface_customization.css.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=css" rel="stylesheet" type="text/css"/><link href="/bd_hadbiex/javax.faces.resource/themify-icons.css.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=css" rel="stylesheet" type="text/css"/><script src="/bd_hadbiex/javax.faces.resource/jquery/jquery.js.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=primefaces&amp;v=6.2" type="text/javascript"></script><script src="/bd_hadbiex/javax.faces.resource/jquery/jquery-plugins.js.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=primefaces&amp;v=6.2" type="text/javascript"></script><script src="/bd_hadbiex/javax.faces.resource/core.js.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=primefaces&amp;v=6.2" type="text/javascript"></script><link href="/bd_hadbiex/javax.faces.resource/components.css.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=primefaces&amp;v=6.2" rel="stylesheet" type="text/css"/><script src="/bd_hadbiex/javax.faces.resource/components.js.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=primefaces&amp;v=6.2" type="text/javascript"></script><link href="/bd_hadbiex/javax.faces.resource/font_1.css.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=css" rel="stylesheet" type="text/css"/><link href="/bd_hadbiex/javax.faces.resource/color_3.css.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=css" rel="stylesheet" type="text/css"/><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en';}</script>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<title>Home Affairs Department - Database of Private Buildings in Hong Kong </title><script src="/bd_hadbiex/javax.faces.resource/function.js.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=js" type="text/javascript"></script><script src="/bd_hadbiex/javax.faces.resource/menu.js.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=js" type="text/javascript"></script></head><body onload="detectBrowser()"><div id="j_id_i" style="width:54px;height:55px;position:fixed;right:15px;bottom:15px"><div id="j_id_i_start" style="display:none"><img alt="loading" src="/bd_hadbiex/javax.faces.resource/loading.gif.jsf?ln=images"/></div><div id="j_id_i_complete" style="display:none"></div></div><script id="j_id_i_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_id_i",{id:"j_id_i"});});</script><?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+
+<style type="text/css">
+		.selected{
+			background-image:url("/bd_hadbiex/javax.faces.resource/trm_hl_bg.png.jsf?ln=images");
+			color: #000;
+			border:0px solid #CCC;
+			border-left:1px solid #CCC;
+			border-right:1px solid #BBB;
+		}
+	
+	</style><form action="/bd_hadbiex/content/searchbuilding/building_search.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2" enctype="application/x-www-form-urlencoded" id="j_id_s" method="post" name="j_id_s">
+<div class="ax-trm-bg">
+<div class="ax-trm"><button aria-label="" class="" id="j_id_s:j_id_u" name="j_id_s:j_id_u" onclick='PrimeFaces.ab({s:"j_id_s:j_id_u"});return false;' style="display:none;" type="submit"><span class="ui-button-text ui-c">ui-button</span></button><script id="j_id_s:j_id_u_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_j_id_s_j_id_u",{id:"j_id_s:j_id_u"});</script>
+<ul>
+<li><a class="ui-commandlink ui-widget" href="#" id="j_id_s:j_id_w" onclick="PF('dlgDashboard').show();;PrimeFaces.ab({s:&quot;j_id_s:j_id_w&quot;,u:&quot;@all&quot;});return false;"><img alt="Theme Color1" id="j_id_s:j_id_x" src="/bd_hadbiex/javax.faces.resource/c_1.png.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=images" title="Theme Color1"/></a>
+</li>
+<li><a class="ui-commandlink ui-widget" href="#" id="j_id_s:j_id_z" onclick="PF('dlgDashboard').show();;PrimeFaces.ab({s:&quot;j_id_s:j_id_z&quot;,u:&quot;@all&quot;});return false;"><img alt="Theme Color2" id="j_id_s:j_id_10" src="/bd_hadbiex/javax.faces.resource/c_2.png.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=images" title="Theme Color2"/></a>
+</li>
+<li><a class="ui-commandlink ui-widget" href="#" id="j_id_s:j_id_12" onclick="PF('dlgDashboard').show();;PrimeFaces.ab({s:&quot;j_id_s:j_id_12&quot;,u:&quot;@all&quot;});return false;"><img alt="Theme Color3" id="j_id_s:j_id_13" src="/bd_hadbiex/javax.faces.resource/c_3.png.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=images" title="Theme Color3"/></a>
+</li>
+<li><a class="ui-commandlink ui-widget" href="#" id="j_id_s:j_id_15" onclick="PF('dlgDashboard').show();;PrimeFaces.ab({s:&quot;j_id_s:j_id_15&quot;,u:&quot;@all&quot;});return false;"><img alt="Font Size1" id="j_id_s:j_id_16" src="/bd_hadbiex/javax.faces.resource/a_1_2.png.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=images" title="Font Size1"/></a>
+</li>
+<li><a class="ui-commandlink ui-widget" href="#" id="j_id_s:j_id_19" onclick="PF('dlgDashboard').show();;PrimeFaces.ab({s:&quot;j_id_s:j_id_19&quot;,u:&quot;@all&quot;});return false;"><img alt="Font Size2" id="j_id_s:j_id_1b" src="/bd_hadbiex/javax.faces.resource/a_2_1.png.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=images" title="Font Size2"/></a>
+</li>
+<li><a class="ui-commandlink ui-widget" href="#" id="j_id_s:j_id_1d" onclick="PF('dlgDashboard').show();;PrimeFaces.ab({s:&quot;j_id_s:j_id_1d&quot;,u:&quot;@all&quot;});return false;"><img alt="Font Size3" id="j_id_s:j_id_1f" src="/bd_hadbiex/javax.faces.resource/a_3_1.png.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=images" title="Font Size3"/></a>
+</li>
+<li></li>
+<li><a class="ui-commandlink ui-widget selected" href="#" id="j_id_s:j_id_1h" onclick="PF('dlgDashboard').show();;PrimeFaces.ab({s:&quot;j_id_s:j_id_1h&quot;,u:&quot;@all&quot;,pa:[{name:&quot;language&quot;,value:&quot;en&quot;}]});return false;"><img alt="English" src="/bd_hadbiex/javax.faces.resource/trm_text_1.png.jsf?ln=images" title="English"/></a>
+<span class="sep"> | </span>
+</li>
+<li><a class="ui-commandlink ui-widget" href="#" id="j_id_s:j_id_1l" onclick="PF('dlgDashboard').show();;PrimeFaces.ab({s:&quot;j_id_s:j_id_1l&quot;,u:&quot;@all&quot;,pa:[{name:&quot;language&quot;,value:&quot;zh_TW&quot;}]});return false;"><img alt="Traditional Chinese" src="/bd_hadbiex/javax.faces.resource/trm_text_2.png.jsf?ln=images" title="Traditional Chinese"/></a>
+<span class="sep"> | </span>
+</li>
+<li><a class="ui-commandlink ui-widget" href="#" id="j_id_s:j_id_1p" onclick="PF('dlgDashboard').show();;PrimeFaces.ab({s:&quot;j_id_s:j_id_1p&quot;,u:&quot;@all&quot;,pa:[{name:&quot;language&quot;,value:&quot;zh_CN&quot;}]});return false;"><img alt="Simplified Chinese" src="/bd_hadbiex/javax.faces.resource/trm_text_3.png.jsf?ln=images" title="Simplified Chinese"/></a>
+<span class="sep"> | </span>
+</li>
+</ul>
+</div>
+</div><input name="j_id_s_SUBMIT" type="hidden" value="1"/><input name="autoScroll" type="hidden"/><input id="j_id__v_2:javax.faces.ViewState:1" name="javax.faces.ViewState" type="hidden" value="VzG3OfAWOu9PvunBmzBjuCsI/y+Z2F0UlyfnXF4TAvUiiC66"/></form>
+<script type="text/javascript">
+	function getScrolling()
+	{
+		var x = 0; var y = 0;if (self.pageXOffset || self.pageYOffset)
+		{
+			x = self.pageXOffset;
+			y = self.pageYOffset;
+		}
+		 else if ((document.documentElement && document.documentElement.scrollLeft)||(document.documentElement && document.documentElement.scrollTop))
+		{
+			x = document.documentElement.scrollLeft;
+			y = document.documentElement.scrollTop;
+		}
+		 else if (document.body) 
+		{
+			x = document.body.scrollLeft;
+			y = document.body.scrollTop;
+		}
+		return x + "," + y;
+	}
+	</script>
+<script src="/bd_hadbiex/javax.faces.resource/oamSubmit.js.jsf?ln=org.apache.myfaces" type="text/javascript"></script><script type="text/javascript">
+(!window.myfaces) ? window.myfaces = {} : null;(!myfaces.core) ? myfaces.core = {} : null;(!myfaces.core.config) ? myfaces.core.config = {} : null;myfaces.core.config.autoScroll = true;</script>
+<div class="ax-body">
+<!-- 		<div class="ax-is-homepage" ></div> --><?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+
+<span id="j_id_1z"></span><script id="j_id_1z_s" type="text/javascript">$(function(){PrimeFaces.cw("Growl","widget_j_id_1z",{id:"j_id_1z",sticky:true,life:6000,escape:true,keepAlive:false,msgs:[]});});</script>
+<div class="ax-header">
+<div class="ax-logo"><a class="ui-commandlink ui-widget" href="#" id="j_id_21" onclick='PrimeFaces.ab({s:"j_id_21"});return false;'><img alt="Home Affairs Department" src="/bd_hadbiex/javax.faces.resource/logo.png.jsf?ln=images" style="margin-left:20px;" title="Home Affairs Department"/></a>
+</div>
+<div class="ax-app-name"><img alt="Database of Private Buildings in Hong Kong" src="/bd_hadbiex/javax.faces.resource/title_en.png.jsf?ln=images" title="Database of Private Buildings in Hong Kong"/>
+</div>
+</div>
+<script type="text/javascript">
+	function getScrolling()
+	{
+		var x = 0; var y = 0;if (self.pageXOffset || self.pageYOffset)
+		{
+			x = self.pageXOffset;
+			y = self.pageYOffset;
+		}
+		 else if ((document.documentElement && document.documentElement.scrollLeft)||(document.documentElement && document.documentElement.scrollTop))
+		{
+			x = document.documentElement.scrollLeft;
+			y = document.documentElement.scrollTop;
+		}
+		 else if (document.body) 
+		{
+			x = document.body.scrollLeft;
+			y = document.body.scrollTop;
+		}
+		return x + "," + y;
+	}
+	</script>
+<div class="ax-middle"><?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+
+<form action="/bd_hadbiex/content/searchbuilding/building_search.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2" enctype="application/x-www-form-urlencoded" id="j_id_2d" method="post" name="j_id_2d">
+<div class="tx-menu horizontal rwd had-top-menu" data-menu-collasped="true" data-menu-id="mainMenu">
+<ul>
+<li><a href="/bd_hadbiex/home.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2">
+<i class="ti-home"></i>
+<span>Home</span></a></li>
+<li><a href="/bd_hadbiex/content/searchbuilding/building_search.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2">
+<i class="ti-search"></i>
+<span>Search Building</span></a></li>
+<li><a href="/bd_hadbiex/content/searchbuilding/building_search.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?renderedValue=true">
+<i class="ti-list"></i>
+<span>List All Buildings</span></a></li>
+<li><a href="/bd_hadbiex/content/help/help.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2">
+<i class="ti-help"></i>
+<span>Help</span></a></li>
+<li class="menu-setting"><a href="javascript:void(0)" title="System"><i class="ti-settings"></i><span>Setting</span></a>
+<ul>
+<li class="c-color"><a class="ui-commandlink ui-widget item b01" href="#" id="j_id_2d:j_id_2u" onclick='PrimeFaces.ab({s:"j_id_2d:j_id_2u",u:"@all"});return false;'><img alt="Theme Color1" id="j_id_2d:j_id_2v" src="/bd_hadbiex/javax.faces.resource/c_1.png.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=images" title="Theme Color1"/></a><a class="ui-commandlink ui-widget item b02" href="#" id="j_id_2d:j_id_2w" onclick='PrimeFaces.ab({s:"j_id_2d:j_id_2w",u:"@all"});return false;'><img alt="Theme Color2" id="j_id_2d:j_id_2x" src="/bd_hadbiex/javax.faces.resource/c_2.png.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=images" title="Theme Color2"/></a><a class="ui-commandlink ui-widget item b03" href="#" id="j_id_2d:j_id_2y" onclick='PrimeFaces.ab({s:"j_id_2d:j_id_2y",u:"@all"});return false;'><img alt="Theme Color3" id="j_id_2d:j_id_2z" src="/bd_hadbiex/javax.faces.resource/c_3.png.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2?ln=images" title="Theme Color3"/></a>
+</li>
+<li class="c-lang"><a class="ui-commandlink ui-widget selected item b01" href="#" id="j_id_2d:j_id_31" onclick='PrimeFaces.ab({s:"j_id_2d:j_id_31",u:"@all",pa:[{name:"language",value:"en"}]});return false;'><img alt="English" src="/bd_hadbiex/javax.faces.resource/trm_text_1.png.jsf?ln=images" title="English"/></a><a class="ui-commandlink ui-widget item b02" href="#" id="j_id_2d:j_id_34" onclick='PrimeFaces.ab({s:"j_id_2d:j_id_34",u:"@all",pa:[{name:"language",value:"zh_TW"}]});return false;'><img alt="Traditional Chinese" src="/bd_hadbiex/javax.faces.resource/trm_text_2.png.jsf?ln=images" title="Traditional Chinese"/></a><a class="ui-commandlink ui-widget item b03" href="#" id="j_id_2d:j_id_37" onclick='PrimeFaces.ab({s:"j_id_2d:j_id_37",u:"@all",pa:[{name:"language",value:"zh_CN"}]});return false;'><img alt="Simplified Chinese" src="/bd_hadbiex/javax.faces.resource/trm_text_3.png.jsf?ln=images" title="Simplified Chinese"/></a>
+</li>
+</ul></li>
+</ul>
+<div class="extra-top">
+<div class="logo">logo</div>
+</div>
+</div><input name="j_id_2d_SUBMIT" type="hidden" value="1"/><input name="autoScroll" type="hidden"/><input id="j_id__v_2:javax.faces.ViewState:2" name="javax.faces.ViewState" type="hidden" value="VzG3OfAWOu9PvunBmzBjuCsI/y+Z2F0UlyfnXF4TAvUiiC66"/></form>
+<script type="text/javascript">
+	function getScrolling()
+	{
+		var x = 0; var y = 0;if (self.pageXOffset || self.pageYOffset)
+		{
+			x = self.pageXOffset;
+			y = self.pageYOffset;
+		}
+		 else if ((document.documentElement && document.documentElement.scrollLeft)||(document.documentElement && document.documentElement.scrollTop))
+		{
+			x = document.documentElement.scrollLeft;
+			y = document.documentElement.scrollTop;
+		}
+		 else if (document.body) 
+		{
+			x = document.body.scrollLeft;
+			y = document.body.scrollTop;
+		}
+		return x + "," + y;
+	}
+	</script>
+<div class="ax-content" id="a2x-co2ntent">
+<div class="ax-content-padding">
+<div><form action="/bd_hadbiex/content/searchbuilding/building_search.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2" enctype="application/x-www-form-urlencoded" id="_bld_search_frm" method="post" name="_bld_search_frm"><div class="ui-panel ui-widget ui-widget-content ui-corner-all" data-widget="panelSearchBld" id="_bld_search_frm:panelSearchBld"><div class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all" id="_bld_search_frm:panelSearchBld_header"><span class="ui-panel-title">Search Building</span><a class="ui-panel-titlebar-icon ui-corner-all ui-state-default" href="#" id="_bld_search_frm:panelSearchBld_toggler"><span class="ui-icon ui-icon-minusthick"></span></a></div><div class="ui-panel-content ui-widget-content" id="_bld_search_frm:panelSearchBld_content">
+<script>
+							$(document).ready(
+									function() {
+										$("[id*='panelSearchBld_toggler']")
+												.css("float", "left");
+										$("[id*='panelSearchBld_toggler']")
+												.css("margin-right", "5px");
+									});
+						</script><div aria-live="polite" class="ui-messages ui-widget" id="_bld_search_frm:j_id_3g"></div>
+<div class="ax-col">
+<div class="col w1">
+<div class="label"><label class="ui-outputlabel ui-widget" id="_bld_search_frm:j_id_3i">District</label>
+</div>
+<div class="field"><div aria-expanded="false" aria-haspopup="true" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all" id="_bld_search_frm:district" role="combobox"><div class="ui-helper-hidden-accessible"><input aria-expanded="false" autocomplete="off" id="_bld_search_frm:district_focus" name="_bld_search_frm:district_focus" type="text"/></div><div class="ui-helper-hidden-accessible"><select aria-hidden="true" id="_bld_search_frm:district_input" name="_bld_search_frm:district_input" onchange='PrimeFaces.ab({s:"_bld_search_frm:district",e:"valueChange",p:"_bld_search_frm:district",u:"_bld_search_frm"});' tabindex="-1"><option value="">All</option><option value="8488792b-fb7a-11e3-b40c-7071bc510f29">CENTRAL AND WESTERN</option><option value="848879c5-fb7a-11e3-b40c-7071bc510f29">EASTERN</option><option value="846157f2-fb7a-11e3-b40c-7071bc510f29">ISLANDS</option><option value="84887548-fb7a-11e3-b40c-7071bc510f29">KOWLOON CITY</option><option value="84615a95-fb7a-11e3-b40c-7071bc510f29">KWAI TSING</option><option value="84887668-fb7a-11e3-b40c-7071bc510f29">KWUN TONG</option><option value="84615b6b-fb7a-11e3-b40c-7071bc510f29">NORTH</option><option value="84615eeb-fb7a-11e3-b40c-7071bc510f29">SAI KUNG</option><option value="84615f9e-fb7a-11e3-b40c-7071bc510f29">SHA TIN</option><option value="8488773e-fb7a-11e3-b40c-7071bc510f29">SHAM SHUI PO</option><option value="84887a82-fb7a-11e3-b40c-7071bc510f29">SOUTHERN</option><option value="8461604e-fb7a-11e3-b40c-7071bc510f29">TAI PO</option><option value="84616111-fb7a-11e3-b40c-7071bc510f29">TSUEN WAN</option><option value="846161cb-fb7a-11e3-b40c-7071bc510f29">TUEN MUN</option><option value="84887b28-fb7a-11e3-b40c-7071bc510f29">WAN CHAI</option><option value="848877e5-fb7a-11e3-b40c-7071bc510f29">WONG TAI SIN</option><option value="84887888-fb7a-11e3-b40c-7071bc510f29">YAU TSIM MONG</option><option value="84887282-fb7a-11e3-b40c-7071bc510f29">YUEN LONG</option></select></div><label class="ui-selectonemenu-label ui-inputfield ui-corner-all" id="_bld_search_frm:district_label"> </label><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" id="_bld_search_frm:district_panel" style="width: 210px"><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"><ul class="ui-selectonemenu-items ui-selectonemenu-list ui-widget-content ui-widget ui-corner-all ui-helper-reset" id="_bld_search_frm:district_items" role="listbox"><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="All" role="option" tabindex="-1">All</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CENTRAL AND WESTERN" role="option" tabindex="-1">CENTRAL AND WESTERN</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="EASTERN" role="option" tabindex="-1">EASTERN</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="ISLANDS" role="option" tabindex="-1">ISLANDS</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="KOWLOON CITY" role="option" tabindex="-1">KOWLOON CITY</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="KWAI TSING" role="option" tabindex="-1">KWAI TSING</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="KWUN TONG" role="option" tabindex="-1">KWUN TONG</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="NORTH" role="option" tabindex="-1">NORTH</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="SAI KUNG" role="option" tabindex="-1">SAI KUNG</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="SHA TIN" role="option" tabindex="-1">SHA TIN</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="SHAM SHUI PO" role="option" tabindex="-1">SHAM SHUI PO</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="SOUTHERN" role="option" tabindex="-1">SOUTHERN</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="TAI PO" role="option" tabindex="-1">TAI PO</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="TSUEN WAN" role="option" tabindex="-1">TSUEN WAN</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="TUEN MUN" role="option" tabindex="-1">TUEN MUN</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="WAN CHAI" role="option" tabindex="-1">WAN CHAI</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="WONG TAI SIN" role="option" tabindex="-1">WONG TAI SIN</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="YAU TSIM MONG" role="option" tabindex="-1">YAU TSIM MONG</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="YUEN LONG" role="option" tabindex="-1">YUEN LONG</li></ul></div></div></div><script id="_bld_search_frm:district_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget__bld_search_frm_district",{id:"_bld_search_frm:district",behaviors:{valueChange:function(ext,event) {PrimeFaces.ab({s:"_bld_search_frm:district",e:"valueChange",p:"_bld_search_frm:district",u:"_bld_search_frm"},ext);}}});});</script>
+</div>
+</div>
+<div class="col w2">
+<div class="label">Name of Building
+								</div>
+<div class="field"><input class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="_bld_search_frm:building_name" name="_bld_search_frm:building_name" type="text"/><script id="_bld_search_frm:building_name_s" type="text/javascript">PrimeFaces.cw("InputText","widget__bld_search_frm_building_name",{id:"_bld_search_frm:building_name"});</script>
+</div>
+</div>
+<div class="col w1">
+<div class="label">Name of Estate
+								</div>
+<div class="field"><input class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="_bld_search_frm:estate_name" name="_bld_search_frm:estate_name" type="text"/><script id="_bld_search_frm:estate_name_s" type="text/javascript">PrimeFaces.cw("InputText","widget__bld_search_frm_estate_name",{id:"_bld_search_frm:estate_name"});</script>
+</div>
+</div>
+<div class="col w1">
+<div class="label">Name of Street
+								</div>
+<div class="field"><input class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="_bld_search_frm:street_name" name="_bld_search_frm:street_name" type="text"/><script id="_bld_search_frm:street_name_s" type="text/javascript">PrimeFaces.cw("InputText","widget__bld_search_frm_street_name",{id:"_bld_search_frm:street_name"});</script>
+</div>
+</div>
+<div class="col w1">
+<div class="label">Name of Village
+								</div>
+<div class="field"><input class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="_bld_search_frm:village_name" name="_bld_search_frm:village_name" type="text"/><script id="_bld_search_frm:village_name_s" type="text/javascript">PrimeFaces.cw("InputText","widget__bld_search_frm_village_name",{id:"_bld_search_frm:village_name"});</script>
+</div>
+</div>
+<div class="col w1">
+<div class="label">Street No.
+								</div>
+<div class="field"><input class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="_bld_search_frm:street_no" name="_bld_search_frm:street_no" type="text"/><script id="_bld_search_frm:street_no_s" type="text/javascript">PrimeFaces.cw("InputText","widget__bld_search_frm_street_no",{id:"_bld_search_frm:street_no"});</script>
+</div>
+</div>
+<!-- <div class="col w1">
+								<div class="label"><h:outputText value="No. of Basement"/> </div>
+								<div class="field">
+									<p:inputText value=""/>
+								</div>
+							</div> -->
+<div class="col w1">
+<div class="label">No. of Storeys
+								</div>
+<div class="field"><input class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="_bld_search_frm:storey" name="_bld_search_frm:storey" type="text"/><script id="_bld_search_frm:storey_s" type="text/javascript">PrimeFaces.cw("InputText","widget__bld_search_frm_storey",{id:"_bld_search_frm:storey"});</script>
+</div>
+</div>
+<div class="col w1">
+<div class="label">No. of Units
+								</div>
+<div class="field"><input class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="_bld_search_frm:unit" name="_bld_search_frm:unit" type="text"/><script id="_bld_search_frm:unit_s" type="text/javascript">PrimeFaces.cw("InputText","widget__bld_search_frm_unit",{id:"_bld_search_frm:unit"});</script>
+</div>
+</div>
+<div class="col w1">
+<div class="label">Year Built (from)
+								</div>
+<div class="field"><input class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="_bld_search_frm:year_from" maxlength="4" name="_bld_search_frm:year_from" type="text"/><script id="_bld_search_frm:year_from_s" type="text/javascript">PrimeFaces.cw("InputText","widget__bld_search_frm_year_from",{id:"_bld_search_frm:year_from"});</script>
+</div>
+</div>
+<div class="col w1">
+<div class="label">Year Built (to)
+								</div>
+<div class="field"><input class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="_bld_search_frm:year_to" maxlength="4" name="_bld_search_frm:year_to" type="text"/><script id="_bld_search_frm:year_to_s" type="text/javascript">PrimeFaces.cw("InputText","widget__bld_search_frm_year_to",{id:"_bld_search_frm:year_to"});</script>
+</div>
+</div>
+<fieldset style="width: 250px; border: 0px; margin-top: 8px;">
+<legend class="label" style="padding-top: 0px;"><label class="ui-outputlabel ui-widget" id="_bld_search_frm:j_id_4q">Organization Type</label>
+</legend><table class="ui-selectmanycheckbox ui-widget" id="_bld_search_frm:_org_type" role="presentation"><tr><td><div class="ui-chkbox ui-widget"><div class="ui-helper-hidden-accessible"><input id="_bld_search_frm:_org_type:0" name="_bld_search_frm:_org_type" onchange='PrimeFaces.ab({s:"_bld_search_frm:_org_type",e:"valueChange",p:"_bld_search_frm:_org_type",u:"_bld_search_frm:_org_type"});' type="checkbox" value="Owners' Corporation (OC)"/></div><div class="ui-chkbox-box ui-widget ui-corner-all ui-state-default"><span class="ui-chkbox-icon ui-icon ui-icon-blank ui-c"></span></div></div><label for="_bld_search_frm:_org_type:0">Owners' Corporation (OC)</label></td></tr><tr><td><div class="ui-chkbox ui-widget"><div class="ui-helper-hidden-accessible"><input id="_bld_search_frm:_org_type:1" name="_bld_search_frm:_org_type" onchange='PrimeFaces.ab({s:"_bld_search_frm:_org_type",e:"valueChange",p:"_bld_search_frm:_org_type",u:"_bld_search_frm:_org_type"});' type="checkbox" value="Owners' Committee"/></div><div class="ui-chkbox-box ui-widget ui-corner-all ui-state-default"><span class="ui-chkbox-icon ui-icon ui-icon-blank ui-c"></span></div></div><label for="_bld_search_frm:_org_type:1">Owners' Committee</label></td></tr><tr><td><div class="ui-chkbox ui-widget"><div class="ui-helper-hidden-accessible"><input id="_bld_search_frm:_org_type:2" name="_bld_search_frm:_org_type" onchange='PrimeFaces.ab({s:"_bld_search_frm:_org_type",e:"valueChange",p:"_bld_search_frm:_org_type",u:"_bld_search_frm:_org_type"});' type="checkbox" value="Mutual Aid Committee (MAC)"/></div><div class="ui-chkbox-box ui-widget ui-corner-all ui-state-default"><span class="ui-chkbox-icon ui-icon ui-icon-blank ui-c"></span></div></div><label for="_bld_search_frm:_org_type:2">Mutual Aid Committee (MAC)</label></td></tr><tr><td><div class="ui-chkbox ui-widget"><div class="ui-helper-hidden-accessible"><input id="_bld_search_frm:_org_type:3" name="_bld_search_frm:_org_type" onchange='PrimeFaces.ab({s:"_bld_search_frm:_org_type",e:"valueChange",p:"_bld_search_frm:_org_type",u:"_bld_search_frm:_org_type"});' type="checkbox" value="Property Management Company"/></div><div class="ui-chkbox-box ui-widget ui-corner-all ui-state-default"><span class="ui-chkbox-icon ui-icon ui-icon-blank ui-c"></span></div></div><label for="_bld_search_frm:_org_type:3">Property Management Company</label></td></tr><tr><td><div class="ui-chkbox ui-widget"><div class="ui-helper-hidden-accessible"><input id="_bld_search_frm:_org_type:4" name="_bld_search_frm:_org_type" onchange='PrimeFaces.ab({s:"_bld_search_frm:_org_type",e:"valueChange",p:"_bld_search_frm:_org_type",u:"_bld_search_frm:_org_type"});' type="checkbox" value="Others"/></div><div class="ui-chkbox-box ui-widget ui-corner-all ui-state-default"><span class="ui-chkbox-icon ui-icon ui-icon-blank ui-c"></span></div></div><label for="_bld_search_frm:_org_type:4">Others</label></td></tr><tr><td><div class="ui-chkbox ui-widget"><div class="ui-helper-hidden-accessible"><input id="_bld_search_frm:_org_type:5" name="_bld_search_frm:_org_type" onchange='PrimeFaces.ab({s:"_bld_search_frm:_org_type",e:"valueChange",p:"_bld_search_frm:_org_type",u:"_bld_search_frm:_org_type"});' type="checkbox" value="without_organization"/></div><div class="ui-chkbox-box ui-widget ui-corner-all ui-state-default"><span class="ui-chkbox-icon ui-icon ui-icon-blank ui-c"></span></div></div><label for="_bld_search_frm:_org_type:5">Without Organization</label></td></tr></table><script id="_bld_search_frm:_org_type_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectManyCheckbox","widget__bld_search_frm__org_type",{id:"_bld_search_frm:_org_type"});});</script>
+</fieldset>
+<br/>
+</div>
+<br/>
+<div class="btnSet aL">
+<br/><button aria-label="" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="_bld_search_frm:search_btn" name="_bld_search_frm:search_btn" onclick="PrimeFaces.onPost();" type="submit"><span class="ui-button-text ui-c">Search</span></button><script id="_bld_search_frm:search_btn_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget__bld_search_frm_search_btn",{id:"_bld_search_frm:search_btn"});</script><button aria-label="" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="_bld_search_frm:clear_btn" name="_bld_search_frm:clear_btn" onclick='PrimeFaces.ab({s:"_bld_search_frm:clear_btn",p:"_bld_search_frm:clear_btn",u:"_bld_search_frm"});return false;' type="submit"><span class="ui-button-text ui-c">Clear All</span></button><script id="_bld_search_frm:clear_btn_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget__bld_search_frm_clear_btn",{id:"_bld_search_frm:clear_btn"});</script>
+</div></div><input id="_bld_search_frm:panelSearchBld_collapsed" name="_bld_search_frm:panelSearchBld_collapsed" type="hidden" value="false"/></div><script id="_bld_search_frm:panelSearchBld_s" type="text/javascript">PrimeFaces.cw("Panel","panelSearchBld",{id:"_bld_search_frm:panelSearchBld",toggleable:true,toggleSpeed:500,collapsed:false,toggleOrientation:"vertical",toggleableHeader:false});</script><input name="_bld_search_frm_SUBMIT" type="hidden" value="1"/><input name="autoScroll" type="hidden"/><input id="j_id__v_2:javax.faces.ViewState:3" name="javax.faces.ViewState" type="hidden" value="VzG3OfAWOu9PvunBmzBjuCsI/y+Z2F0UlyfnXF4TAvUiiC66"/></form><form action="/bd_hadbiex/content/searchbuilding/building_search.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2" enctype="application/x-www-form-urlencoded" id="_bld_result_frm" method="post" name="_bld_result_frm">
+<!-- InstanceBeginEditable name="content" -->
+<div>
+</div><input name="_bld_result_frm_SUBMIT" type="hidden" value="1"/><input name="autoScroll" type="hidden"/><input id="j_id__v_2:javax.faces.ViewState:4" name="javax.faces.ViewState" type="hidden" value="VzG3OfAWOu9PvunBmzBjuCsI/y+Z2F0UlyfnXF4TAvUiiC66"/></form>
+</div>
+</div>
+</div>
+</div><?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+
+<div class="ax-footer">
+<div class="ax-footer-padding">
+<div class="ax-footer-link aL">
+<ul>
+<li style="padding-top: 0px;"><a href="http://www.w3.org/WAI/WCAG2AA-Conformance" rel="external" target="_blank" title="Level Double-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"><img alt="Explanation of WCAG 2.0 Level Double-A Conformance" src="/bd_hadbiex/javax.faces.resource/wcag2AA.gif.jsf?ln=images" title="Explanation of WCAG 2.0 Level Double-A Conformance"/></a>
+<span class="sep"> | </span>
+</li>
+<li><a href="/bd_hadbiex/important_notices.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2"><img alt="" height="0" id="j_id_61" src="/bd_hadbiex/javax.faces.resource/spacer/dot_clear.gif.jsf?ln=primefaces&amp;v=6.2" width="2"/>
+          			Important Notice
+          		</a>
+<span class="sep"> | </span>
+</li>
+<li><a href="/bd_hadbiex/privacy_policy.jsf;jsessionid=TdnTGuGrYU7Mfa7cukqtysKQAEAuXike_jjODFzP.node2"><img alt="" height="0" id="j_id_65" src="/bd_hadbiex/javax.faces.resource/spacer/dot_clear.gif.jsf?ln=primefaces&amp;v=6.2" width="2"/>
+          			Privacy Policy
+          		</a>
+<span class="sep"> | </span>
+</li>
+</ul>
+</div>
+<div class="ax-copyright aR">
+<span class="ax-copy-sign">Copyright ©  </span>
+<span class="ax-year"></span>. Home Affairs Department. All Right Reserved.
+	      </div>
+</div>
+</div>
+<script type="text/javascript">
+	function getScrolling()
+	{
+		var x = 0; var y = 0;if (self.pageXOffset || self.pageYOffset)
+		{
+			x = self.pageXOffset;
+			y = self.pageYOffset;
+		}
+		 else if ((document.documentElement && document.documentElement.scrollLeft)||(document.documentElement && document.documentElement.scrollTop))
+		{
+			x = document.documentElement.scrollLeft;
+			y = document.documentElement.scrollTop;
+		}
+		 else if (document.body) 
+		{
+			x = document.body.scrollLeft;
+			y = document.body.scrollTop;
+		}
+		return x + "," + y;
+	}
+	</script>
+</div>
+<script>_initAllTxMenu();</script>
+<script type="text/javascript">
+	function getScrolling()
+	{
+		var x = 0; var y = 0;if (self.pageXOffset || self.pageYOffset)
+		{
+			x = self.pageXOffset;
+			y = self.pageYOffset;
+		}
+		 else if ((document.documentElement && document.documentElement.scrollLeft)||(document.documentElement && document.documentElement.scrollTop))
+		{
+			x = document.documentElement.scrollLeft;
+			y = document.documentElement.scrollTop;
+		}
+		 else if (document.body) 
+		{
+			x = document.body.scrollLeft;
+			y = document.body.scrollTop;
+		}
+		return x + "," + y;
+	}
+	</script>
+</body>
+</html>
