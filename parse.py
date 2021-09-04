@@ -3,6 +3,7 @@ import cv2
 import csv
 import os
 import math
+import pandas as pd
 
 def resize(image):
     return cv2.resize(image, (1080, 720), interpolation=cv2.INTER_AREA)
@@ -33,7 +34,7 @@ for filename in os.listdir('src'):
     success = True
     while success:
         success, frame = capture.read()
-        if not success:# or framecount == 100:
+        if not success or framecount==100:
             break
         
         image = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -59,10 +60,13 @@ for filename in os.listdir('src'):
         # cv2.imshow('IMG', resize(edges))
         # if cv2.waitKey(200) == ord('q'):
         #     break
-
-    with open(os.path.join('output', f'{os.path.splitext(filename)[0]}_180.csv'), mode='w+', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerows(vals)
+    
+    df = pd.DataFrame(vals, columns=['frame', 'length', 'angle'])
+    df.reset_index()
+    df.to_csv(os.path.join('output', f'{os.path.splitext(filename)[0]}.csv'), index=False)
+    # with open(, mode='w+', newline='') as f:
+    #     writer = csv.writer(f)
+    #     writer.writerows(vals)
 
     # cv2.destroyAllWindows()
     break
