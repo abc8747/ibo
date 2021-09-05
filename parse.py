@@ -1,12 +1,8 @@
+from rich.progress import Progress
 import numpy as np
-import cv2
-import csv
-import os
-import math
 import pandas as pd
-
-def resize(image):
-    return cv2.resize(image, (1080, 720), interpolation=cv2.INTER_AREA)
+import cv2
+import os
 
 class Line:
     def __init__(self, line):
@@ -25,48 +21,30 @@ class Line:
         )
         return self
 
-for filename in os.listdir('src'):
-    capture = cv2.VideoCapture(os.path.join("src", filename))
-    totalframecount = int(capture.get(cv2.CAP_PROP_FRAME_COUNT))
-    
-    vals = []
-    framecount = 0
-    success = True
-    while success:
-        success, frame = capture.read()
-        if not success or framecount==100:
-            break
+with Progress() as progress:
+    files = os.listdir('src')
+    task0 = progress.add_task(f"[green]Processing files...", total=len(files))
+    for filename in files:
+        progress.update(task0, advance=1, description=f"[green]Processing {filename}...")
+        capture = cv2.VideoCapture(os.path.join("src", filename))
         
-        image = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        totalframecount = int(capture.get(cv2.CAP_PROP_FRAME_COUNT))
+        task1 = progress.add_task(f"[green]Parsing frames...", total=totalframecount)
+        vals, framecount = [], 0
+        while 1:
+            success, frame = capture.read()
+            if not success: break
+            
+            image = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+            edges = cv2.Canny(image, 100, 100, L2gradient=True)
+            lines = cv2.HoughLinesP(edges, 1, np.pi/180, 100, maxLineGap=200)
+            
+            if lines is not None:
+                l = Line(sorted(lines, key=lambda x:Line(x).getLen().length, reverse=True)[0]).getLen().getAngle()
+                vals.append([framecount, l.length, l.angle])
 
-        edges = cv2.Canny(image, 100, 100, L2gradient=False)
-        lines = cv2.HoughLinesP(edges, 1, np.pi/180, 100, maxLineGap=200)
+            progress.update(task1, advance=1)
+            framecount += 1
         
-        if lines is not None:
-            l = Line(sorted(lines, key=lambda x:Line(x).getLen().length, reverse=True)[0])
-            l.getLen().getAngle()
-
-            # for l0 in lines:
-                # l0 = Line(l0)
-                # cv2.line(edges, l0.p1, l.p2, (255, 255, 255), 1)
-            # cv2.line(edges, l.p1, l.p2, (255, 255, 255), 3)
-            # cv2.putText(edges, f'fc: {framecount}, l: {l.length:.6}, t: {l.angle:.6}', (0, 25), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255))
-
-            vals.append([framecount, l.length, l.angle])
-
-        print(framecount, totalframecount)
-        framecount += 1
-
-        # cv2.imshow('IMG', resize(edges))
-        # if cv2.waitKey(200) == ord('q'):
-        #     break
-    
-    df = pd.DataFrame(vals, columns=['frame', 'length', 'angle'])
-    df.reset_index()
-    df.to_csv(os.path.join('output', f'{os.path.splitext(filename)[0]}.csv'), index=False)
-    # with open(, mode='w+', newline='') as f:
-    #     writer = csv.writer(f)
-    #     writer.writerows(vals)
-
-    # cv2.destroyAllWindows()
-    break
+        df = pd.DataFrame(vals, columns=['frame', 'length', 'angle'])
+        df.to_csv(os.path.join('output', f'{os.path.splitext(filename)[0]}.csv'), index=False)
