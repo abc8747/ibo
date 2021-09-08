@@ -1,25 +1,46 @@
+'''
+This script does the following:
+- calculate T for 0.001 < l < 1.500, with increments of 0.001
+- save the raw data to a CSV file.
+- for 0.001 < l < 1.500, with increments of 0.001:
+    - for 0.0010 < r < 0.0979, with increments of 0.0001:
+        - calculate the percentage error in T
+        - plot on a 2D axis with the 'turbo' colormap
+- store the graph in a PNG image.
+'''
+
 import math
-import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
 
 g = 9.81
-def getMomentOfInertia(m, L): # rod
-    return m*L**2/12
-def getPeriod(r, l, L):
-    m = 1
-    I = getMomentOfInertia(m, L)
-    return 2*math.pi/r*math.sqrt(l*I/g)
 
-print(getPeriod(15/100/2, 0.494, 0.1982))
+def getT(l_rod, r, l):
+    return 2*math.pi*l_rod/r*math.sqrt(l/12/g)
 
-'''
-7 | 97.4 507 513 522
-6 | 89.4 506 515 523
-5 | 81.4 508 516 506
-4 | 73.4 509 517 507
-3 | 65.4 510 518 508
-2 | 57.4 511 519 509
-1 | 49.4 512 521 510
+def getTerr(l_rod, 𝛿l_rod, r, 𝛿r, l, 𝛿l):
+    return math.sqrt(
+        math.pow(𝛿l_rod*((2*math.pi/r) * (math.sqrt(l/12/g))),2) + 
+        math.pow(𝛿r*((2*math.pi*l_rod/math.pow(r,2)) * (math.sqrt(l/12/g))),2) + 
+        math.pow(𝛿l*((2*math.pi*l_rod/r) * (.5/math.sqrt(l/12/g))),2)
+    )
 
+df0 = pd.DataFrame([(l, getT(.1958, .075, l)) for l in np.arange(.001, 1.500, .001)], columns=['l', 'T'])
+df0.to_csv('output1/pilot.csv', index=False)
 
+data = []
+l_rod, 𝛿l_rod = .1958, .0001
+𝛿l = .001
+𝛿r = .001
+for l in np.arange(.001, 1.500, .001):
+    for r in np.arange(.001, .0979, .0001):
+        pct𝛿T = min(getTerr(l_rod, 𝛿l_rod, r, 𝛿r, l, 𝛿l) / getT(l_rod, r, l), .15)
+        data.append([l, r, pct𝛿T])
 
-'''
+df = pd.DataFrame(data, columns=['l', 'r', 'pct𝛿T'])
+plt.rcParams['font.family'] = 'Latin Modern Roman'
+plt.scatter(x=df['l'],y=df['r'],c=df['pct𝛿T'], cmap='turbo')
+plt.xlim([.001, 1.500])
+plt.ylim([.001, .0979])
+plt.savefig('output1/pilot.png', dpi=300)

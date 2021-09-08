@@ -1,12 +1,25 @@
+'''
+This script does the following:
+- read raw data from a specific folder
+- for each raw data
+    - smoothen noisy data using a non-uniform Savitzky-Golay filter
+    - obtain the peaks of the smoothened data
+    - for each peak:
+        - calculate the average time
+        - calculate the difference in time
+        - calculate the average length of the rod (in pixels)
+        - calculate the average angle of the rod (in radians)
+- aggregate all processed data
+- store the data in one CSV file for further processing
+'''
+
+from rich.progress import Progress
 import os
 import numpy as np
 import pandas as pd
 from scipy.signal import argrelextrema
-from rich.progress import Progress
 
 def non_uniform_savgol_filter(x, y, window, polynom):
-    # Obtained from https://dsp.stackexchange.com/a/64313
-
     half_window = window // 2
     polynom += 1
 
@@ -80,8 +93,8 @@ with Progress() as progress:
         for i, j in enumerate(df1l[:-1]):
             r0, r1 = df1l[i], df1l[i+1]
             df2l.append([
-                (r1[0] + r0[0]) / 2,
-                r1[0] - r0[0],
+                (r1[0] + r0[0]) / 2 / 60,
+                (r1[0] - r0[0]) / 60,
                 (r1[1] + r0[1]) / 2,
                 (r1[2] + r1[2]) / 2
             ])
