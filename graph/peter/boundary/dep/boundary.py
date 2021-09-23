@@ -29,8 +29,8 @@ with open('boundary/DCCA2019.json', 'r') as f:
         if 'H' in consituency['CACODE']:
             polygons.append(Polygon(consituency['json_geometry']['coordinates'][0]))
 
-    for y, x in unary_union(polygons).exterior.coords:
     bounds = []
+    for y, x in unary_union(polygons).exterior.coords:
         coords = common.Coordinate(x=x, y=y)
         bounds.append((coords.lon, coords.lat, 0))
 

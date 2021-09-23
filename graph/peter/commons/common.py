@@ -3,9 +3,8 @@ from pyproj import Transformer, Proj
 from rich import print, inspect
 from rich.progress import track
 import math
-from .models import *
 
-gmaps = googlemaps.Client(key='AIzaSyDkvo7O65VGJZeQ-EneJZjIdOMMKC8yGv4')
+gmaps = googlemaps.Client(key='')
 hk80_to_wgs84 = Transformer.from_crs("epsg:2326", "epsg:4326").transform
 wgs84_to_hk80 = Transformer.from_crs("epsg:4326", "epsg:2326").transform
 hk80 = Proj('epsg:2326')
@@ -15,6 +14,7 @@ def chunks(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
 
+# create a Coordinate() class so HK80 x/y coordinates can be easily converted to WGS84 lat/lng and vice versa
 class Coordinate:
     def __init__(self, lat=None, lon=None, x=None, y=None, autoconvert=True):
         self.lat = float(lat) if lat else None
@@ -41,6 +41,7 @@ class Coordinate:
             math.pow(self.x - coordinate.x, 2) + math.pow(self.y - coordinate.y, 2)
         )
 
+# create a Location() class that has the ability to convert addresses to a Coordinate()
 class Location:
     csvheaders = ['locationid', 'name', 'query', 'number', 'address', 'lat', 'lon', 'placeid']
 
@@ -72,6 +73,7 @@ class Location:
     def genRow(self):
         return [self.locationid, self.name, self.query, self.number, self.address, self.coords.lat, self.coords.lon, self.placeid]
 
+# deprecated: attempt to create classes such that O-D matrices can be used.
 class Route:
     def __init__(self, origin_locationid, destination_locationid, distance, duration):
         self.origin_locationid = origin_locationid
@@ -108,10 +110,8 @@ class Routes:
                     print(e)
                 c1 += 1
             c0 += 1
-        
         return self
 
-# sfca
 
 class Building:
     csvheaders = ['buildingid','gfa','height','x','y']
@@ -133,6 +133,8 @@ class Sample:
     def genRow(self):
         return [self.sampleid, self.coords.x, self.coords.y, self.accessibility]
 
+# returns the accessibility of multiple samples,
+# given the locations of the services, population nodes and catchment distances
 class SFCA:
     def __init__(self, samples, locations, buildings, catchment_distance):
         self.samples = samples
@@ -154,7 +156,4 @@ class SFCA:
                     demand += building.gfa * self.decay(location.coords.getDistance(building.coords))
                 supply = location.number * self.decay(sample.coords.getDistance(location.coords))
                 sample.accessibility += supply / demand
-            
-            if int(sample.sampleid) % 10 == 0:
-                print(sample.sampleid)
         return self
