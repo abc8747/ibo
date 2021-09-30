@@ -4,7 +4,6 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
 import csv
 from rich import print, inspect
-from sqlalchemy.sql.expression import distinct
 
 Base = declarative_base()
 engine = create_engine('sqlite:///db/data.db', echo=False)

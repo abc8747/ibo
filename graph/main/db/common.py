@@ -1,15 +1,11 @@
+import math
 from pyproj import Transformer, Proj
 from rich import print, inspect
-from rich.progress import track
-import math
+from rich.progress import Progress
 from .models import *
 
-from sqlalchemy.sql.coercions import WhereHavingImpl
-from .models import *
-from time import time_ns
 from sqlalchemy.sql import select
 
-# from openlocationcode import encode
 hk80_to_wgs84 = Transformer.from_crs("epsg:2326", "epsg:4326").transform
 wgs84_to_hk80 = Transformer.from_crs("epsg:4326", "epsg:2326").transform
 hk80 = Proj('epsg:2326')
@@ -55,10 +51,10 @@ class SFCA:
         return 0
 
     def calculate(self):
-        with Session(engine) as session:
+        with Session(engine) as session, Progress() as progress:
+            sfcatask = progress.add_task("[yellow]Running SFCA...", total=len(self.samples))
             for sample in self.samples:
                 try:
-                    start = time_ns()
                     sample.accessibility = 0
                     for carpark in self.carparks:
                         d = session.execute(select(CarparkMatrix.total_cost).where((CarparkMatrix.origin_id == sample.sample_id) & (CarparkMatrix.destination_id == carpark.carpark_id))).fetchone()[0]
@@ -72,6 +68,9 @@ class SFCA:
                         
                         if demand == 0: continue
                         sample.accessibility += supply / demand
-                    print(sample.sample_id, '->', (time_ns() - start) / 1e9)
                 except Exception:
                     pass
+                finally:
+                    progress.update(sfcatask, advance=1)
+        
+        return self
