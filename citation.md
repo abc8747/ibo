@@ -31,7 +31,7 @@ gaussian function
 [x] Cheung, Tin Cheung. Practice Note for Authorized Persons,   Registered Structural Engineers and   Registered Geotechnical Engineers. Building Authority, May 2019, https://www.bd.gov.hk/doc/en/resources/codes-and-references/practice-notes-and-circular-letters/pnap/APP/APP005.pdf.
 
 - congestion
-[ ] Kidando, Emmanuel, et al. “Evaluating Traffic Congestion Using the Traffic Occupancy and Speed Distribution Relationship: An Application of Bayesian Dirichlet Process Mixtures of Generalized Linear Model.” Journal of Transportation Technologies, vol. 07, no. 03, 2017, pp. 318–35. DOI.org (Crossref), https://doi.org/10.4236/jtts.2017.73021.
+[x] Kidando, Emmanuel, et al. “Evaluating Traffic Congestion Using the Traffic Occupancy and Speed Distribution Relationship: An Application of Bayesian Dirichlet Process Mixtures of Generalized Linear Model.” Journal of Transportation Technologies, vol. 07, no. 03, 2017, pp. 318–35. DOI.org (Crossref), https://doi.org/10.4236/jtts.2017.73021.
 
 - others
 [ ] Goh, P. K., and W. H. K. Lam. “PEDESTRIAN FLOWS AND WALKING SPEED: A PROBLEM AT SIGNALIZED CROSSWALKS.” ITE Journal, vol. 74, no. 1, Jan. 2004. trid.trb.org, https://trid.trb.org/view/748681.
