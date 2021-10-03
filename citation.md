@@ -17,18 +17,21 @@
 [x] Pinder, D. A., and M. E. Witherick. “The Principles, Practice and Pitfalls of Nearest-Neighbour Analysis.” Geography, vol. 57, no. 4, 1972, pp. 277–88.
 [x] Wang, Fahui, and Wei Lou. “GIS-Based Accessibility Measures and Application:” Encyclopedia of Information Science and Technology, First Edition, edited by Mehdi Khosrow-Pour, D.B.A., IGI Global, 2005, pp. 1284–87. DOI.org (Crossref), https://doi.org/10.4018/978-1-59140-553-5.ch226.
 [x] Chen, Xiang, and Pengfei Jia. “A Comparative Analysis of Accessibility Measures by the Two-Step Floating Catchment Area (2SFCA) Method.” International Journal of Geographical Information Science, vol. 33, no. 9, Sept. 2019, pp. 1739–58. DOI.org (Crossref), https://doi.org/10.1080/13658816.2019.1591415.
-[ ] Dai, Dajun. “Black Residential Segregation, Disparities in Spatial Access to Health Care Facilities, and Late-Stage Breast Cancer Diagnosis in Metropolitan Detroit.” Health & Place, vol. 16, no. 5, Sept. 2010, pp. 1038–52. PubMed, https://doi.org/10.1016/j.healthplace.2010.06.012.
-[ ] Luo, Wei, and Tara Whippo. “Variable Catchment Sizes for the Two-Step Floating Catchment Area (2SFCA) Method.” Health & Place, vol. 18, no. 4, July 2012, pp. 789–95. DOI.org (Crossref), https://doi.org/10.1016/j.healthplace.2012.04.002.
-[ ] Tao, Zhuolin, et al. “Hierarchical Two-Step Floating Catchment Area (2SFCA) Method: Measuring the Spatial Accessibility to Hierarchical Healthcare Facilities in Shenzhen, China.” International Journal for Equity in Health, vol. 19, no. 1, Dec. 2020, p. 164. DOI.org (Crossref), https://doi.org/10.1186/s12939-020-01280-7.
+gaussian function
+[x] Dai, Dajun. “Black Residential Segregation, Disparities in Spatial Access to Health Care Facilities, and Late-Stage Breast Cancer Diagnosis in Metropolitan Detroit.” Health & Place, vol. 16, no. 5, Sept. 2010, pp. 1038–52. PubMed, https://doi.org/10.1016/j.healthplace.2010.06.012.
+[x] Luo, Wei, and Tara Whippo. “Variable Catchment Sizes for the Two-Step Floating Catchment Area (2SFCA) Method.” Health & Place, vol. 18, no. 4, July 2012, pp. 789–95. DOI.org (Crossref), https://doi.org/10.1016/j.healthplace.2012.04.002.
+[x] Tao, Zhuolin, et al. “Hierarchical Two-Step Floating Catchment Area (2SFCA) Method: Measuring the Spatial Accessibility to Hierarchical Healthcare Facilities in Shenzhen, China.” International Journal for Equity in Health, vol. 19, no. 1, Dec. 2020, p. 164. DOI.org (Crossref), https://doi.org/10.1186/s12939-020-01280-7.
 
 - methodology
-[ ] Wang, Yiheng, et al. “An Improved Accessibility-Based Model to Evaluate Educational Equity: A Case Study in the City of Wuhan.” ISPRS International Journal of Geo-Information, vol. 10, no. 7, July 2021, p. 458. DOI.org (Crossref), https://doi.org/10.3390/ijgi10070458.
-[ ] Huff, David L., and George F. Jenks. “A GRAPHIC INTERPRETATION OF THE FRICTION OF DISTANCE IN GRAVITY MODELS.” Annals of the Association of American Geographers, vol. 58, no. 4, Dec. 1968, pp. 814–24. DOI.org (Crossref), https://doi.org/10.1111/j.1467-8306.1968.tb01670.x.
-[ ] Kidando, Emmanuel, et al. “Evaluating Traffic Congestion Using the Traffic Occupancy and Speed Distribution Relationship: An Application of Bayesian Dirichlet Process Mixtures of Generalized Linear Model.” Journal of Transportation Technologies, vol. 07, no. 03, 2017, pp. 318–35. DOI.org (Crossref), https://doi.org/10.4236/jtts.2017.73021.
+[x] Wang, Yiheng, et al. “An Improved Accessibility-Based Model to Evaluate Educational Equity: A Case Study in the City of Wuhan.” ISPRS International Journal of Geo-Information, vol. 10, no. 7, July 2021, p. 458. DOI.org (Crossref), https://doi.org/10.3390/ijgi10070458.
+[x] Huff, David L., and George F. Jenks. “A GRAPHIC INTERPRETATION OF THE FRICTION OF DISTANCE IN GRAVITY MODELS.” Annals of the Association of American Geographers, vol. 58, no. 4, Dec. 1968, pp. 814–24. DOI.org (Crossref), https://doi.org/10.1111/j.1467-8306.1968.tb01670.x.
+- supply
 [ ] Internal Transport Facilities. Planning Department, 2021, https://www.pland.gov.hk/pland_en/tech_doc/hkpsg/full/pdf/ch8.pdf.
-
 - building height
 [ ] Cheung, Tin Cheung. Practice Note for Authorized Persons,   Registered Structural Engineers and   Registered Geotechnical Engineers. Building Authority, May 2019, https://www.bd.gov.hk/doc/en/resources/codes-and-references/practice-notes-and-circular-letters/pnap/APP/APP005.pdf.
+
+- congestion
+[ ] Kidando, Emmanuel, et al. “Evaluating Traffic Congestion Using the Traffic Occupancy and Speed Distribution Relationship: An Application of Bayesian Dirichlet Process Mixtures of Generalized Linear Model.” Journal of Transportation Technologies, vol. 07, no. 03, 2017, pp. 318–35. DOI.org (Crossref), https://doi.org/10.4236/jtts.2017.73021.
 
 - others
 [ ] Goh, P. K., and W. H. K. Lam. “PEDESTRIAN FLOWS AND WALKING SPEED: A PROBLEM AT SIGNALIZED CROSSWALKS.” ITE Journal, vol. 74, no. 1, Jan. 2004. trid.trb.org, https://trid.trb.org/view/748681.
