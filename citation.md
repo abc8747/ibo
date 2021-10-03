@@ -26,7 +26,7 @@ gaussian function
 [x] Wang, Yiheng, et al. “An Improved Accessibility-Based Model to Evaluate Educational Equity: A Case Study in the City of Wuhan.” ISPRS International Journal of Geo-Information, vol. 10, no. 7, July 2021, p. 458. DOI.org (Crossref), https://doi.org/10.3390/ijgi10070458.
 [x] Huff, David L., and George F. Jenks. “A GRAPHIC INTERPRETATION OF THE FRICTION OF DISTANCE IN GRAVITY MODELS.” Annals of the Association of American Geographers, vol. 58, no. 4, Dec. 1968, pp. 814–24. DOI.org (Crossref), https://doi.org/10.1111/j.1467-8306.1968.tb01670.x.
 - supply
-[ ] Internal Transport Facilities. Planning Department, 2021, https://www.pland.gov.hk/pland_en/tech_doc/hkpsg/full/pdf/ch8.pdf.
+[x] Internal Transport Facilities. Planning Department, 2021, https://www.pland.gov.hk/pland_en/tech_doc/hkpsg/full/pdf/ch8.pdf.
 - building height
 [x] Cheung, Tin Cheung. Practice Note for Authorized Persons,   Registered Structural Engineers and   Registered Geotechnical Engineers. Building Authority, May 2019, https://www.bd.gov.hk/doc/en/resources/codes-and-references/practice-notes-and-circular-letters/pnap/APP/APP005.pdf.
 
@@ -35,6 +35,6 @@ gaussian function
 
 - others
 [ ] Goh, P. K., and W. H. K. Lam. “PEDESTRIAN FLOWS AND WALKING SPEED: A PROBLEM AT SIGNALIZED CROSSWALKS.” ITE Journal, vol. 74, no. 1, Jan. 2004. trid.trb.org, https://trid.trb.org/view/748681.
-[ ] “Public Transport.” Annual Transport Digest 2006, Transport Department, https://www.td.gov.hk/mini_site/atd/2006/eng/section5_21_en.htm.
+[x] “Public Transport.” Annual Transport Digest 2006, Transport Department, https://www.td.gov.hk/mini_site/atd/2006/eng/section5_21_en.htm.
 [ ] Study of Road Traffic Congestion in Hong Kong. Traffic Advisory Committee, Dec. 2014, https://www.thb.gov.hk/eng/boards/transport/land/Full_Eng_C_cover.pdf.
 [x] Lau, W. W. T., et al. The Hong Kong Second Parking Demand Study. 2005. hub.hku.hk, https://doi.org/10.1680/tran.158.1.53.57831.
