@@ -28,7 +28,7 @@ gaussian function
 - supply
 [ ] Internal Transport Facilities. Planning Department, 2021, https://www.pland.gov.hk/pland_en/tech_doc/hkpsg/full/pdf/ch8.pdf.
 - building height
-[ ] Cheung, Tin Cheung. Practice Note for Authorized Persons,   Registered Structural Engineers and   Registered Geotechnical Engineers. Building Authority, May 2019, https://www.bd.gov.hk/doc/en/resources/codes-and-references/practice-notes-and-circular-letters/pnap/APP/APP005.pdf.
+[x] Cheung, Tin Cheung. Practice Note for Authorized Persons,   Registered Structural Engineers and   Registered Geotechnical Engineers. Building Authority, May 2019, https://www.bd.gov.hk/doc/en/resources/codes-and-references/practice-notes-and-circular-letters/pnap/APP/APP005.pdf.
 
 - congestion
 [ ] Kidando, Emmanuel, et al. “Evaluating Traffic Congestion Using the Traffic Occupancy and Speed Distribution Relationship: An Application of Bayesian Dirichlet Process Mixtures of Generalized Linear Model.” Journal of Transportation Technologies, vol. 07, no. 03, 2017, pp. 318–35. DOI.org (Crossref), https://doi.org/10.4236/jtts.2017.73021.
