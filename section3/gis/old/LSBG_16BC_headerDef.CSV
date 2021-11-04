@@ -1,0 +1,100 @@
+﻿街段–大合併組,Large Street Block Group,街段–大合併組,Large Street Block Group,lsbg
+街段–大合併組（英文名稱）,Name of Large Street Block Group (in English),街段–大合併組（英文名稱）,Name of Large Street Block Group (in English),lsbg_eng
+街段–大合併組（中文名稱）,Name of Large Street Block Group (in Chinese),街段–大合併組（中文名稱）,Name of Large Street Block Group (in Chinese),lsbg_chi
+總人口,Total population,總人口,Total population,t_pop
+  按性別劃分的人口,Population  by sex,男性,Male ,pop_m
+  按性別劃分的人口,Population  by sex,女性,Female,pop_f
+性別比率（即男性數目與每千名女性相對的比率）,Sex ratio (i.e. the number of males per 1 000 females in the respective age group),性別比率（即男性數目與每千名女性相對的比率）,Sex ratio (i.e. the number of males per 1 000 females in the respective age group),sr
+ 按年齡組別劃分的人口,Population by age group,15歲以下,< 15 ,age_1
+ 按年齡組別劃分的人口,Population by age group,15至24歲,15 - 24,age_2
+ 按年齡組別劃分的人口,Population by age group,25至44歲,25 - 44,age_3
+ 按年齡組別劃分的人口,Population by age group,45至64歲,45 - 64,age_4
+ 按年齡組別劃分的人口,Population by age group,65歲及以上,65+ ,age_5
+按出生地點劃分的人口,Population by place of birth,香港,Hong Kong,born_hk
+按出生地點劃分的人口,Population by place of birth,中國內地／澳門／台灣,The mainland of China/ Macao/ Taiwan,born_chi
+按出生地點劃分的人口,Population by place of birth,其他地方,Elsewhere,born_else
+按種族劃分的人口,Population by ethnicity,華人,Chinese,ethn_chi
+按種族劃分的人口,Population by ethnicity,菲律賓人,Filipino,ethn_phi
+按種族劃分的人口,Population by ethnicity,印尼人,Indonesian,ethn_ind
+按種族劃分的人口,Population by ethnicity,白人,White,ethn_wh
+按種族劃分的人口,Population by ethnicity,其他(1),Others(1),ethn_oth
+按婚姻狀況劃分的15歲及以上人口,Population aged 15 and over by marital status,曾經結婚,Ever married,ms_em
+按婚姻狀況劃分的15歲及以上人口,Population aged 15 and over by marital status,從未結婚,Never married,ms_nm
+按慣用交談語言劃分的5歲及以上人口(2),Population aged 5 and over by usual spoken language(2),廣州話,Cantonese,ul_can
+按慣用交談語言劃分的5歲及以上人口(2),Population aged 5 and over by usual spoken language(2),普通話,Putonghua,ul_put
+按慣用交談語言劃分的5歲及以上人口(2),Population aged 5 and over by usual spoken language(2),其他中國方言,Other Chinese dialects,ul_othchi
+按慣用交談語言劃分的5歲及以上人口(2),Population aged 5 and over by usual spoken language(2),英語,English,ul_eng
+按慣用交談語言劃分的5歲及以上人口(2),Population aged 5 and over by usual spoken language(2),其他語言,Other languages,ul_oth
+按教育程度（最高就讀程度）劃分的15歲及以上人口,Population aged 15 and over by educational attainment (highest level attended),小學及以下,Primary and below,edu_pri_be
+按教育程度（最高就讀程度）劃分的15歲及以上人口,Population aged 15 and over by educational attainment (highest level attended),中學,Secondary,edu_sec
+按教育程度（最高就讀程度）劃分的15歲及以上人口,Population aged 15 and over by educational attainment (highest level attended),專上教育,Post-secondary,edu_psec
+工作人口,Working population,工作人口,Working population,t_wp
+按就業身分劃分的工作人口,Working population by employment status,僱員（包括外發工）,Employees　(including outworkers),wp_ee
+按就業身分劃分的工作人口,Working population by employment status,僱主,Employers,wp_er
+按就業身分劃分的工作人口,Working population by employment status,自營作業者,Self-employed,wp_se
+按就業身分劃分的工作人口,Working population by employment status,無酬家庭從業員,Unpaid family workers,wp_fw
+按工作地點劃分的工作人口,Working population by place of work,香港島,Hong Kong Island,plw_hk
+按工作地點劃分的工作人口,Working population by place of work,九龍,Kowloon,plw_kln
+按工作地點劃分的工作人口,Working population by place of work,新界,New Territories,plw_nt
+按工作地點劃分的工作人口,Working population by place of work,在香港沒有固定工作地點／水上／於家中工作／香港以外地方,No fixed places of work in Hong Kong/ Marine/ Work at home/ Places outside Hong Kong,plw_oth
+按每月主要職業收入（港元）劃分的工作人口（不包括無酬家庭從業員）,Working population (excluding unpaid family workers) by monthly income from main employment (HKS),"少於 10,000","Less than 10,000",mearn_xfw_sb_1
+按每月主要職業收入（港元）劃分的工作人口（不包括無酬家庭從業員）,Working population (excluding unpaid family workers) by monthly income from main employment (HKS),"10,000 - 19,999","10,000 - 19,999",mearn_xfw_sb_2
+按每月主要職業收入（港元）劃分的工作人口（不包括無酬家庭從業員）,Working population (excluding unpaid family workers) by monthly income from main employment (HKS),"20,000及以上","20,000 and over",mearn_xfw_sb_3
+按職業(3)劃分的工作人口,Working population by occupation(3),經理及行政級人員,Managers and administrators,wp_a
+按職業(3)劃分的工作人口,Working population by occupation(3),專業人員,Professionals,wp_b
+按職業(3)劃分的工作人口,Working population by occupation(3),輔助專業人員,Associate professionals,wp_c
+按職業(3)劃分的工作人口,Working population by occupation(3),文書支援人員,Clerical support workers,wp_d
+按職業(3)劃分的工作人口,Working population by occupation(3),服務工作及銷售人員,Service and sales workers,wp_e
+按職業(3)劃分的工作人口,Working population by occupation(3),工藝及有關人員,Craft and related workers,wp_f
+按職業(3)劃分的工作人口,Working population by occupation(3),機台及機器操作員及裝配員,Plant and machine operators and assemblers,wp_g
+按職業(3)劃分的工作人口,Working population by occupation(3),非技術工人,Elementary occupations,wp_h
+按職業(3)劃分的工作人口,Working population by occupation(3),漁農業熟練工人及不能分類的職業,Skilled agricultural and fishery workers; and occupations not classifiable,wp_i
+按行業(4)劃分的工作人口,Working population by industry(4),製造業,Manufacturing,wp_j
+按行業(4)劃分的工作人口,Working population by industry(4),建造業,Construction,wp_k
+按行業(4)劃分的工作人口,Working population by industry(4),進出口、批發及零售業,"Import/export, wholesale and retail trades",wp_l
+按行業(4)劃分的工作人口,Working population by industry(4),運輸、倉庫、郵政及速遞服務業,"Transportation, storage, postal and courier services",wp_m
+按行業(4)劃分的工作人口,Working population by industry(4),住宿及膳食服務業,Accommodation and food services,wp_n
+按行業(4)劃分的工作人口,Working population by industry(4),資訊及通訊業,Information and communications,wp_o
+按行業(4)劃分的工作人口,Working population by industry(4),金融及保險業,Financing and insurance,wp_p
+按行業(4)劃分的工作人口,Working population by industry(4),地產、專業及商用服務業,"Real estate, professional and business services",wp_q
+按行業(4)劃分的工作人口,Working population by industry(4),公共行政、教育、人類醫療保健及社工活動,"Public administration, education, human health and social work activities",wp_r
+按行業(4)劃分的工作人口,Working population by industry(4),雜項社會及個人服務,Miscellaneous social and personal services,wp_s
+按行業(4)劃分的工作人口,Working population by industry(4),其他(5),Others(5),wp_t
+家庭住戶數目,Domestic households,家庭住戶數目,Domestic households,dh
+按住戶人數劃分的家庭住戶數目,Domestic households by household size,1,1,dhz_1
+按住戶人數劃分的家庭住戶數目,Domestic households by household size,2,2,dhz_2
+按住戶人數劃分的家庭住戶數目,Domestic households by household size,3及以上,3 and over,dhz_3plus
+按住戶結構劃分的家庭住戶數目,Domestic households by household composition,核心家庭住戶(6),Nuclear family households(6),dhc_nc
+按住戶結構劃分的家庭住戶數目,Domestic households by household composition,親屬關係住戶(7),Relative households(7),dhc_re
+按住戶結構劃分的家庭住戶數目,Domestic households by household composition,其他住戶(8),Other households(8),dhc_oth
+按家庭住戶每月收入（港元）劃分的家庭住戶數目,Domestic households by monthly domestic household income (HK$),"少於 10,000","Less than 10,000",dhi_sb_1
+按家庭住戶每月收入（港元）劃分的家庭住戶數目,Domestic households by monthly domestic household income (HK$),"10,000 - 19,999","10,000 - 19,999",dhi_sb_2
+按家庭住戶每月收入（港元）劃分的家庭住戶數目,Domestic households by monthly domestic household income (HK$),"20,000 - 39,999","20,000 - 39,999",dhi_sb_3
+按家庭住戶每月收入（港元）劃分的家庭住戶數目,Domestic households by monthly domestic household income (HK$),"40,000 及以上","40,000 and over",dhi_sb_4
+家庭住戶每月收入（港元）中位數,Median monthly domestic household income (HK$),家庭住戶每月收入（港元）中位數,Median monthly domestic household income (HK$),ma_hh
+有人居住的屋宇單位數目,Occupied quarters,有人居住的屋宇單位數目,Occupied quarters,oq
+按房屋類型劃分的家庭住戶數目,Domestic households by type of housing,公營租住房屋,Public rental housing,dh_pub
+按房屋類型劃分的家庭住戶數目,Domestic households by type of housing,私人永久性房屋,Private permanent housing,dh_pri
+按房屋類型劃分的家庭住戶數目,Domestic households by type of housing,其他房屋類型,Other types of housing,dh_oth
+按廳房數目﹝不包括廚房及廁所﹞劃分的家庭住戶數目,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),1,1,dh_r1
+按廳房數目﹝不包括廚房及廁所﹞劃分的家庭住戶數目,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),2,2,dh_r2
+按廳房數目﹝不包括廚房及廁所﹞劃分的家庭住戶數目,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),3,3,dh_r3
+按廳房數目﹝不包括廚房及廁所﹞劃分的家庭住戶數目,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),4,4,dh_r4
+按廳房數目﹝不包括廚房及廁所﹞劃分的家庭住戶數目,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),5,5,dh_r5
+按廳房數目﹝不包括廚房及廁所﹞劃分的家庭住戶數目,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),6及以上,6 and over,dh_r6
+按廳房數目﹝不包括廚房及廁所﹞劃分的家庭住戶數目,Domestic households by number of rooms (excluding kitchens and toilets/ bathrooms),沒有自用廳房,Without exclusively used rooms,dh_r0
+按居所租住權劃分的家庭住戶數目,Domestic households by tenure of accommodation,自置,Owner-occupier,ten_oc
+按居所租住權劃分的家庭住戶數目,Domestic households by tenure of accommodation,租住,Tenant,ten_te
+按居所租住權劃分的家庭住戶數目,Domestic households by tenure of accommodation,其他,Others,ten_oth
+按家庭住戶每月按揭供款及借貸還款（港元）劃分的有按揭供款或借貸還款的家庭住戶數目,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),由非住戶成員支付,By non-household members only,dhm_sb_1
+按家庭住戶每月按揭供款及借貸還款（港元）劃分的有按揭供款或借貸還款的家庭住戶數目,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),"1 - 5,999","1 - 5,999",dhm_sb_2
+按家庭住戶每月按揭供款及借貸還款（港元）劃分的有按揭供款或借貸還款的家庭住戶數目,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),"6,000 - 9,999","6,000 - 9,999",dhm_sb_3
+按家庭住戶每月按揭供款及借貸還款（港元）劃分的有按揭供款或借貸還款的家庭住戶數目,Domestic households with mortgage payment or loan repayment by monthly domestic household mortgage payment and loan repayment (HK$),"10,000 及以上","10,000 and over",dhm_sb_4
+家庭住戶每月按掲供款及借貸還款（港元）中位數,Median monthly domestic household mortgage payment and loan repayment (HK$),家庭住戶每月按掲供款及借貸還款（港元）中位數,Median monthly domestic household mortgage payment and loan repayment (HK$),dhm_loan
+家庭住戶每月按掲供款及借貸還款與收入比率中位數,Median monthly domestic household mortgage payment and loan repayment to income ratio,家庭住戶每月按掲供款及借貸還款與收入比率中位數,Median monthly domestic household mortgage payment and loan repayment to income ratio,dhm_lr
+按家庭住戶每月租金（港元）劃分的居於租住居所的家庭住戶數目,Domestic households renting the accommodation they occupy by monthly domestic household rent (HK$),"少於 2,000(9)","Less than 2,000(9)",dhr_1
+按家庭住戶每月租金（港元）劃分的居於租住居所的家庭住戶數目,Domestic households renting the accommodation they occupy by monthly domestic household rent (HK$),"2,000 - 5,999","2,000 - 5,999",dhr_2
+按家庭住戶每月租金（港元）劃分的居於租住居所的家庭住戶數目,Domestic households renting the accommodation they occupy by monthly domestic household rent (HK$),"6,000 - 9,999","6,000 - 9,999",dhr_3
+按家庭住戶每月租金（港元）劃分的居於租住居所的家庭住戶數目,Domestic households renting the accommodation they occupy by monthly domestic household rent (HK$),"10,000 及以上","10,000 and over",dhr_4
+家庭住戶每月租金（港元）中位數,Median monthly domestic household rent (HK$),家庭住戶每月租金（港元）中位數,Median monthly domestic household rent (HK$),dm_r
+家庭住戶每月租金與收入比率中位數,Median monthly domestic household rent to income ratio,家庭住戶每月租金與收入比率中位數,Median monthly domestic household rent to income ratio,dmr_ir
