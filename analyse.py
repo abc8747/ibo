@@ -85,9 +85,12 @@ with Progress() as progress:
         idx = argrelextrema(smoothed, np.greater, order=5)[0]
 
         df1 = pd.DataFrame(columns=["frame", "length", "turning_smoothed"])
-        df1['frame'] = df.iloc[idx].frame
-        df1['length'] = df.iloc[idx].length
-        df1['turning_smoothed'] = smoothed[idx]
+        df1['frame'] = df.frame
+        df1['turning'] = df.angle
+        df1['turning_smoothed'] = smoothed
+
+        df1.to_csv("output2/savgol.csv")
+        # break
 
         df1l, df2l = df1.values.tolist(), []
         for i, j in enumerate(df1l[:-1]):
@@ -108,4 +111,4 @@ with Progress() as progress:
         ]))
 
 df2 = pd.concat(df2s, axis=1)
-df2.to_csv(os.path.join("output1", "all.csv"), index=False)
+df2.to_csv(os.path.join("output2", "all.csv"), index=False)
