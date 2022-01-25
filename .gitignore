@@ -1,6 +1,9 @@
 # to avoid DMCA
 data/sr/*
 
+# for debugging purposes
+tmp*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
