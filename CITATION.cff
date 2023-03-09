@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: Error heatmap generator
+message: If you use this software, please cite it as below.
+url: https://github.com/cathaypacific8747/physics-ia-tools
+date-released: 2022-07-28
+authors:
+  - given-names: Yan Lok
+    family-names: Cheung
+    affiliation: Po Leung Kuk Choi Kai Yau School
+    orcid: https://orcid.org/0000-0002-9640-6640
