@@ -1,0 +1,37 @@
+<GMLFeatureClassList>
+  <GMLFeatureClass>
+    <Name>GenericCityObject</Name>
+    <ElementPath>GenericCityObject</ElementPath>
+    <!--LINESTRING-->
+    <GeometryType>2</GeometryType>
+    <SRSName>EPSG:2326</SRSName>
+    <DatasetSpecificInfo>
+      <FeatureCount>5</FeatureCount>
+      <ExtentXMin>825612.59013</ExtentXMin>
+      <ExtentXMax>843653.00725</ExtentXMax>
+      <ExtentYMin>813067.06266</ExtentYMin>
+      <ExtentYMax>825176.90954</ExtentYMax>
+    </DatasetSpecificInfo>
+    <PropertyDefn>
+      <Name>FEATUREID</Name>
+      <ElementPath>FEATUREID</ElementPath>
+      <Type>Integer</Type>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>CORDONLINE</Name>
+      <ElementPath>CORDONLINE</ElementPath>
+      <Type>String</Type>
+      <Width>32</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>OBJECTID</Name>
+      <ElementPath>OBJECTID</ElementPath>
+      <Type>Integer</Type>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>SHAPE_Length</Name>
+      <ElementPath>SHAPE_Length</ElementPath>
+      <Type>Real</Type>
+    </PropertyDefn>
+  </GMLFeatureClass>
+</GMLFeatureClassList>
