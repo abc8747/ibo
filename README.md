@@ -4,7 +4,9 @@
 
 This repository contains the code for my International Baccalaureate Geography Internal Assessment (May 2022 examinations).
 
-The original paper submitted to the IBO and supplementary datasets (to be uploaded soon) are available to download [here](https://doi.org/10.5281/zenodo.6814252), licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The original paper submitted to the IBO can be downloaded [here](https://doi.org/10.5281/zenodo.6814252), licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+To view main project file, resolve the missing datasets in the [remarks](#remarks) and open the main [QGIS](https://qgis.org/en/site) project file [here](section3/gis/main.qgz).
 
 ## Abstract
 With land in Hong Kong generally sold to the highest bidder, the land value is often argued to increase closer to the PLVI. By using building heights along four transects as a proxy indicator for the land value, this paper attempts to explore to what extent does Hong Kong fit this pattern, and verify whether land use models (Burgess Model, Hoyt Model, Functional Zone Model) apply.
@@ -61,3 +63,13 @@ The following operations are performed with [QGIS](https://qgis.org/):
 - list of bus stops and MTR stations are filtered from the [iGeoCom maps](https://data.gov.hk/en-data/dataset/hk-landsd-openmap-development-hkms-digital-geocom) to generate their own Kernel Density Estimations (KDE) of the transport accessibility.
 
 - [5m DTM](https://data.gov.hk/en-data/dataset/hk-landsd-openmap-5m-grid-dtm) used is visualise the terrain in HK with a raster layer.
+
+## Remarks
+The following files are compressed/missing:
+
+- `section3/gis/shapefiles/buildings_all.zip` - extract it.
+- `section3/gis/shapefiles/GeoCom.zip` - extract it.
+- `section3/gis/shapefiles/S_buildings_geometry_old.zip` - extract it.
+- `section3/gis/shapefiles/W_buildings_geometry_old.zip` - extract it.
+- `section3/gis/iB1000.gdb` - [download here](https://data.gov.hk/en-data/dataset/hk-landsd-openmap-development-hkms-digital-b1k/resource/a3aa069d-9f40-460c-87bf-486b49173846), relink the path in QGIS.
+- some datasets are shared with my [geography EE](https://github.com/cathaypacific8747/geo-ee), if there are any missing datasets follow the `Remarks` section in the README.
