@@ -1,0 +1,19 @@
+V1: pcu/hr/100GFA
+V2: pcu standards
+
+_______
+
+V1 Table 2: Traffic rates for non-residential developments ()
+            P108: buildings are required to not exceed 5% of its minimum requirements, or 50 parking spaces.
+
+V6: indicates that all new residential developments should meet the requirement
+V7: zone 1 developments did not previously require the provision of off-street parking requirements
+
+L/UL
+on street GV
+
+
+CTS models
+PDM (parking demand model) - owned by the TTSD
+
+V6Ch8
