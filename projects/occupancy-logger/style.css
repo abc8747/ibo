@@ -1,0 +1,17 @@
+.container-fluid {
+    overflow: hidden;
+}
+
+#clicker {
+    height: 100vh;
+    background-color: #424242;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+#clicker.active {
+    background-color: #0277bd;
+}
