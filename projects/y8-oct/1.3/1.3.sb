@@ -1,0 +1,6 @@
+TextWindow.Title = "circles"
+TextWindow.WriteLine("Please type the diameter of the circle.")
+diameter = TextWindow.Read()
+radius = diameter / 2
+circumference = Math.Pi * 2 * radius
+TextWindow.WriteLine("The Circumference of the circle is " + circumference)

@@ -1,0 +1,27 @@
+start:
+TextWindow.Clear()
+TextWindow.WriteLine("Which direction do you want it to be?")
+rawin = TextWindow.Read()
+Dir = Text.ConvertToUpperCase(rawin)
+If (Dir = "N") Or (Dir = "E") Or (Dir = "S") Or (Dir = "W") Then
+  Goto display
+Else
+  TextWindow.WriteLine("Your input: " + rawin + " is not valid. Please try again.")
+  Program.Delay(1000)
+  Goto start
+EndIf
+
+display:
+GraphicsWindow.Height = "400"
+GraphicsWindow.Width = "400"
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.PenColor = "Yellow"
+If Dir = "N" Then
+  GraphicsWindow.DrawRectangle(100,100,100,100)
+ElseIf Dir = "E" Then
+  GraphicsWindow.DrawTriangle(200,100,100,200,300,200)
+ElseIf Dir = "S" Then
+  GraphicsWindow.DrawRectangle(50,100,300,125)
+ElseIf Dir = "W" Then
+  GraphicsWindow.DrawEllipse(100,100,100,100)
+EndIf

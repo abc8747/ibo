@@ -1,0 +1,35 @@
+'All customizable variables
+Gheight = 640
+Gwidth = 800
+bgcolor = "black"
+GreenDayPic1 = "E:\8AICT\Small Basic\smallbasic files\GreenDayPic1.jpg"
+RecsHeight = 30
+RecsWidth = 125
+ExtraSpace = 5
+RecsPercent = 0.7
+Max = (Gheight * RecsPercent / (RecsHeight + ExtraSpace))
+SpaceAfterRecs = 15
+SquareSide = 125
+OverlappingDist = 75
+CircleD = SquareSide * RecsPercent
+
+'The main program
+
+GraphicsWindow.Show()
+GraphicsWindow.Height = Gheight
+GraphicsWindow.Width = Gwidth
+GraphicsWindow.BackgroundColor = bgcolor
+
+For RecNum = 1 To Max
+  GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor()
+  Ycoor = RecNum * (RecsHeight + ExtraSpace)
+  GraphicsWindow.DrawRectangle(ExtraSpace , Ycoor ,RecsWidth,RecsHeight)
+EndFor
+
+GraphicsWindow.BrushColor = GraphicsWindow.GetColorFromRGB(0,255,0)
+GraphicsWindow.FillRectangle(ExtraSpace, (ExtraSpace*Max)+(RecsHeight*Max)+SpaceAfterRecs, SquareSide, SquareSide)
+GraphicsWindow.BrushColor = GraphicsWindow.GetColorFromRGB(255,0,0)
+GraphicsWindow.FillEllipse(SquareSide / 4 , (ExtraSpace * Max) + (RecsHeight * Max) + SpaceAfterRecs + OverlappingDist, CircleD, CircleD)
+GraphicsWindow.DrawResizedImage(GreenDayPic1,((2 * ExtraSpace) + RecsWidth), ExtraSpace, (Gwidth - (3 * ExtraSpace) - RecsWidth), Gheight - ExtraSpace - ExtraSpace)
+GraphicsWindow.ShowMessage("Have a nice day!", "Win32.Gen.Trojan.Variant.166594 Detected!")
+

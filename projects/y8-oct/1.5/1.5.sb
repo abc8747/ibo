@@ -1,0 +1,165 @@
+TextWindow.Show()
+
+start:
+TextWindow.Title = "Classwork 1.5 - Statements, Properties and Operations"
+TextWindow.ForegroundColor = "yellow"
+TextWindow.WriteLine("Hello, :)")
+TextWindow.WriteLine("  ")' Just an empty line
+
+Program.Delay(500)
+TextWindow.ForegroundColor = "green"
+TextWindow.WriteLine("Please type the name you would want me to call you: ")
+TextWindow.ForegroundColor = "yellow"
+
+TextWindow.WriteLine("  ")' Just an empty line
+NameInput = TextWindow.Read()
+TextWindow.Clear()
+Program.Delay(20)
+LoopCount = 1
+MaxLoops = 4
+RainHighCount = 0
+RainLowCount = 0
+TempColdCount = 0
+TempHotCount = 0
+TempWarmCount = 0
+WindStrongCount = 0
+WindWeakCount = 0
+
+For a = 1 To MaxLoops
+  TextWindow.ForegroundColor = "yellow"
+    TextWindow.WriteLine("Hi, " + NameInput + ", Could you type the current temperature in the City No. " + LoopCount + "?")
+    TextWindow.WriteLine("  ")' Just an empty line
+  TextWindow.ForegroundColor = "cyan"
+    TempInput = TextWindow.Read()
+      TextWindow.Write("°C")
+      TempValidate()
+      TextWindow.WriteLine("  ")' Just an empty line
+    TextWindow.WriteLine("  ")' Just an empty line
+      
+      TextWindow.Clear()
+      
+  TextWindow.ForegroundColor = "yellow"    
+    TextWindow.WriteLine("Hey, " + NameInput + ", but could you tell me the percentage of rain in the City No. " + LoopCount + "?")
+    TextWindow.WriteLine("  ")' Just an empty line
+  TextWindow.ForegroundColor = "cyan"
+      RainInput = TextWindow.Read()
+      TextWindow.Write("%")
+      RainValidate()
+      TextWindow.WriteLine("  ")' Just an empty line
+    TextWindow.WriteLine("  ")' Just an empty line
+      TextWindow.Clear()
+    
+  TextWindow.ForegroundColor = "yellow"
+    TextWindow.WriteLine("Emm... " + NameInput + ", could you tell me the wind status in the City No. " + LoopCount + " (in km/h)?")
+    TextWindow.WriteLine("  ")' Just an empty line
+  TextWindow.ForegroundColor = "cyan"
+      WindInput = TextWindow.Read()
+      TextWindow.Write("%")
+      WindValidate()
+      TextWindow.WriteLine("  ")' Just an empty line
+    TextWindow.WriteLine("  ")' Just an empty line
+      
+      TextWindow.Clear()
+      
+    LoopCount = LoopCount + 1
+ EndFor
+
+TextWindow.ForegroundColor = "green"
+TextWindow.WriteLine("OK, so here are the results:")
+TextWindow.CursorLeft = "8"
+TextWindow.ForegroundColor = "yellow"
+TextWindow.WriteLine("According to your inputs,")
+TextWindow.ForegroundColor = "cyan"
+ 
+      'For temperature: Whether to use "city" or "cities" and "is" or "and"
+      If TempColdCount = 0 Then
+      TextWindow.WriteLine("There aren't any cold cites!")
+      ElseIf TempColdCount = 1 Then
+      TextWindow.WriteLine("There is " + TempColdCount + " cold city.")
+      Else
+      TextWindow.WriteLine("There are " + TempColdCount + " cold cities.")
+      EndIf
+
+      If TempWarmCount = 0 Then
+      TextWindow.WriteLine("There aren't any warm cities!")
+      ElseIf TempWarmCount = 1 Then
+      TextWindow.WriteLine("There is " + TempWarmCount + " warm city.")
+      Else
+      TextWindow.WriteLine("There are " + TempWarmCount + " warm cities.")
+      EndIf
+    
+      If TempHotCount = 0 Then
+      TextWindow.WriteLine("There aren't any hot cities!")
+      ElseIf TempHotCount = 1 Then
+        TextWindow.WriteLine("There is " + TempHotCount + " hot city.")
+      Else
+      TextWindow.WriteLine("There are " + TempHotCount + " hot cities.")
+      EndIf
+
+      If RainHighCount = 0 Then
+      TextWindow.WriteLine("There aren't any rainy cities!")
+      ElseIf RainHighCount = 1 Then
+        TextWindow.WriteLine("There is " + RainHighCount + " rainy city.")
+      Else
+        TextWindow.WriteLine("There are " + RainHighCount + " rainy cities.")
+      EndIf
+
+      If WindStrongCount = 0 Then
+      TextWindow.WriteLine("There aren't any windy cities!")
+      ElseIf WindStrongCount = 1 Then
+        TextWindow.WriteLine("There is " + WindStrongCount + " windy city.")
+      Else
+        TextWindow.WriteLine("There are " + WindStrongCount + " windy cities.")
+      EndIf
+      
+      TextWindow.WriteLine("  ")' Just an empty line
+      
+      TextWindow.CursorLeft = "8"
+      TextWindow.ForegroundColor = "yellow"
+      TextWindow.WriteLine("More Statistics:")
+      TextWindow.ForegroundColor = "cyan"
+      TextWindow.WriteLine((TempColdCount/MaxLoops)*100 + " % of cities are cold,")
+      TextWindow.WriteLine((TempWarmCount/MaxLoops)*100 + " % of cities are warm,")
+      TextWindow.WriteLine((TempHotCount/MaxLoops)*100 + " % of cities are hot,")
+      TextWindow.WriteLine((RainHighCount/MaxLoops)*100 + " % of cities are rainy,")
+      TextWindow.WriteLine((RainLowCount/MaxLoops)*100 + " % of cities are not rainy,")
+      TextWindow.WriteLine((WindStrongCount/MaxLoops)*100 + " % of cities are windy,")
+      TextWindow.WriteLine((WindWeakCount/MaxLoops)*100 + " % of cities are not windy,")
+      TextWindow.WriteLine("  ")' Just an empty line
+      
+      TextWindow.ForegroundColor = "magenta"
+      TextWindow.WriteLine("You may type anything to exit this program.")
+      TextWindow.WriteLine("But if you want to start all over again, please type 'restart' below")
+      RestartOrNot = TextWindow.Read()
+      If RestartOrNot = "restart" Or RestartOrNot = "Restart" Then
+        TextWindow.Clear()
+        Goto start
+      Else
+        TextWindow.Hide()
+      EndIf
+
+ Sub TempValidate
+   If TempInput <18 Then
+     TempColdCount = TempColdCount + 1
+   ElseIf TempInput <27 Then  
+     TempWarmCount = TempWarmCount + 1
+   Else
+     TempHotCount = TempHotCount + 1
+   EndIf
+ EndSub
+   
+ Sub RainValidate
+   If RainInput >= 50 Then
+     RainHighCount = RainHighCount + 1
+   Else  
+     RainLowCount = RainLowCount + 1
+   EndIf
+ EndSub
+ 
+ Sub WindValidate
+   If WindInput >= 20 Then
+     WindStrongCount = WindStrongCount + 1
+   Else  
+     WindWeakCount = WindWeakCount + 1
+   EndIf
+ EndSub

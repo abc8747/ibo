@@ -1,0 +1,58 @@
+                    'Some variables to be customized...
+BallWidth = "75"
+BallHeight = "75"
+GHeight = "720"
+GWidth = "1080"
+Bgcolor = "Black"
+GWTitle = "C:\Windows\System32\cmd.exe"
+Bcolor = "White"
+Pcolor = "Yellow"
+PWidth1 = "5"
+PWidth2 = "3.5"
+Bcolor2 = "#00FF7F"
+Pcolor2 = "#4682B4"
+RectBColor = "#DC143C"
+RectPColor = "#8B0000"
+Xray1 = "0"
+Yankee1 = GHeight / 2
+Yankee2 = GHeight / 2
+OnTheLine = Gheight/2 - BallHeight - (PWidth1 / 2)
+EndPoint = GWidth - BallWidth
+StartPoint = "0"
+ProgramDelay = "1000"
+AnimationDuration = "5000"
+AnimationDuration2 = "1250"
+One = ProgramDelay / 10
+Two = ProgramDelay / 20
+RedRectNewX = Xray1 - BallWidth
+
+            'This is the real main part of the program...
+GraphicsWindow.Show()
+GraphicsWindow.Height = GHeight
+GraphicsWindow.Width = GWidth
+GraphicsWindow.BackgroundColor = Bgcolor
+GraphicsWindow.Title = GWTitle
+            'Adds the bottom color of the screen
+GraphicsWindow.BrushColor = RectBColor
+GraphicsWindow.PenColor = RectPColor
+RedRectangle = Shapes.AddRectangle(GWidth, Yankee1)
+Shapes.Move(RedRectangle, Xray1, Yankee1)
+            'Adds the line to be rolled on
+GraphicsWindow.BrushColor = Bcolor
+GraphicsWindow.PenColor = Pcolor
+GraphicsWindow.PenWidth = PWidth1
+LineNo1 = Shapes.AddLine(Xray1, Yankee1, GWidth, Yankee2)
+            'Adds the ball to be moved
+GraphicsWindow.PenColor = Pcolor2
+GraphicsWindow.BrushColor = Bcolor2
+GraphicsWindow.PenWidth = PWidth2
+RotBall = Shapes.AddEllipse(BallWidth, BallHeight)
+            'This moves the ball instantly on the line and to the start...
+Shapes.Move(RotBall, StartPoint, OnTheLine)
+Program.Delay(ProgramDelay)
+Shapes.Animate(RedRectangle, RedRectNewX, Yankee1, AnimationDuration2)
+Shapes.Animate(RotBall, EndPoint, OnTheLine, AnimationDuration)
+Program.Delay(AnimationDuration)
+Shapes.Animate(LineNo1, RedRectNewX, Xray1, One)
+Program.Delay(Two)
+Shapes.Animate(RotBall, EndPoint, GHeight, AnimationDuration2)

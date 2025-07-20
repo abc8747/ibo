@@ -1,0 +1,26 @@
+music1 = Program.Directory + "\AmericanIdiot.mp3"
+TextWindow.WriteLine("Initializing...")
+
+For Image = 1 To 100
+  CurrentImage = Flickr.GetRandomPicture("cat")
+  GraphicsWindow.BackgroundColor = "Black"
+  GraphicsWindow.Height = ImageList.GetHeightOfImage(CurrentImage) * 1.5
+  GraphicsWindow.Width = ImageList.GetWidthOfImage(CurrentImage) * 1.5
+  GraphicsWindow.DrawResizedImage(CurrentImage, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
+  Program.Delay(2000) ' Delay for 2000 milliseconds
+  
+    If Image >= 10 Then
+      Goto end
+    ElseIf Image = 1 Then
+      Sound.Play(music1)
+    EndIf
+  EndFor
+  
+  end:
+  GraphicsWindow.BrushColor = "White"
+  GraphicsWindow.PenColor = "White"
+  GraphicsWindow.FontSize = "128"
+  GraphicsWindow.DrawBoundText(0,0, GraphicsWindow.Width, "DONE! Hit any button to exit the program.")
+  Program.Delay(5000)
+  GraphicsWindow.Hide()
+  Program.End()
