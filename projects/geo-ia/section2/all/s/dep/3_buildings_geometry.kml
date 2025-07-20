@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <visibility>1</visibility>
+    <Style id="all">
+      <LineStyle>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f0000ff</color>
+        <fill>1</fill>
+        <outline>0</outline>
+      </PolyStyle>
+    </Style>
+    <Folder>
+      <name>all</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>0_One Exchange Square</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.158359,22.283442</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_Jardine House</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.159155,22.283004</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_General Post Office</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.159544,22.283563</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_Chater House</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.158438,22.282230</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_Alexandra House</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.158544,22.281495</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_Edinburgh Tower</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.157683,22.280955</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_World-wide House</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.157789,22.282554</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_The Galleria</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.158518,22.280497</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_Prince's Building</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.159163,22.281225</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_Standard Chartered Bank Building</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.159011,22.280430</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_New Henry House</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.158316,22.280747</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_HSBC Main Building</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.159545,22.280297</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.159674,22.279442</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_Cheung Kong Center</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.160538,22.279543</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_Bank of China Building</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.160138,22.280210</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.160060,22.279183</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_Bank of China Tower</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.161571,22.279278</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_Champion Tower</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.160556,22.278462</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>0_St. John's Building</name>
+        <visibility>1</visibility>
+        <Point>
+          <coordinates>114.159173,22.277694</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

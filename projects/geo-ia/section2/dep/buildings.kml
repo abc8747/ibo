@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>buildings.kml</name>
+	<Folder>
+		<name>0</name>
+		<Placemark>
+			<name>Edward Wong Tower</name>
+			<Point>
+				<coordinates>114.146425,22.337012,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRE Centre</name>
+			<Point>
+				<coordinates>114.147078,22.336609,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wah Shing Industrial Building</name>
+			<Point>
+				<coordinates>114.146832,22.336472,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Premier Centre</name>
+			<Point>
+				<coordinates>114.146557,22.336373,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hong Kong Industrial Centre Block A</name>
+			<Point>
+				<coordinates>114.146692,22.33717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lifung Centre</name>
+			<Point>
+				<coordinates>114.14708,22.33717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>909 CHEUNG SHA WAN ROAD</name>
+			<Point>
+				<coordinates>114.146304,22.336448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tung Lee Building</name>
+			<Point>
+				<coordinates>114.146304,22.33717,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>1</name>
+		<Placemark>
+			<name>Manley Tower</name>
+			<Point>
+				<coordinates>114.148159,22.3376,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheung Sha Wan Plaza ( Tower 1 )</name>
+			<Point>
+				<coordinates>114.149137,22.337246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheung Sha Wan Plaza ( Tower 2 )</name>
+			<Point>
+				<coordinates>114.148319,22.336969,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hong Kong Spinners Industrial Building Phase I And II</name>
+			<Point>
+				<coordinates>114.148697,22.338065,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>2</name>
+		<Placemark>
+			<name>Clifford Centre</name>
+			<Point>
+				<coordinates>114.15023,22.338322,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tin On Industrial Building</name>
+			<Point>
+				<coordinates>114.150485,22.337728,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gee Hing Chang Industrial Building</name>
+			<Point>
+				<coordinates>114.150139,22.337651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Laws Commercial Plaza</name>
+			<Point>
+				<coordinates>114.149845,22.338192,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hong Kong Spinners Industrial Building Phase V</name>
+			<Point>
+				<coordinates>114.150721,22.338425,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Precious Industrial Centre</name>
+			<Point>
+				<coordinates>114.149945,22.337703,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>3</name>
+		<Placemark>
+			<name>Cst</name>
+			<Point>
+				<coordinates>114.152345,22.338792,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Charming Garden</name>
+			<Point>
+				<coordinates>114.152606,22.338555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hung Cheong Factory Building</name>
+			<Point>
+				<coordinates>114.15146,22.338803,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>High One</name>
+			<Point>
+				<coordinates>114.152765,22.338767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CSW Indoor Game Hall Substation</name>
+			<Point>
+				<coordinates>114.153052,22.338122,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>4</name>
+		<Placemark>
+			<name>Un Hong House</name>
+			<Point>
+				<coordinates>114.15429,22.337195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Trade Square</name>
+			<Point>
+				<coordinates>114.153688,22.336872,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>5</name>
+		<Placemark>
+			<name>Un Lok House</name>
+			<Point>
+				<coordinates>114.155666,22.336628,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Un Shing House</name>
+			<Point>
+				<coordinates>114.154917,22.337256,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>6</name>
+		<Placemark>
+			<name>Un Yat House</name>
+			<Point>
+				<coordinates>114.156871,22.335463,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheung Yan House</name>
+			<Point>
+				<coordinates>114.156111,22.334624,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Un Hei House</name>
+			<Point>
+				<coordinates>114.156348,22.335893,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>7</name>
+		<Placemark>
+			<name>Yee Lok House</name>
+			<Point>
+				<coordinates>114.157987,22.333444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yee Sau House</name>
+			<Point>
+				<coordinates>114.158682,22.333053,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>8</name>
+		<Placemark>
+			<name>Ning Ching House</name>
+			<Point>
+				<coordinates>114.159331,22.332497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yee Ching Court Block C</name>
+			<Point>
+				<coordinates>114.159751,22.332172,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>South Ocean Building</name>
+			<Point>
+				<coordinates>114.160393,22.332489,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>9</name>
+		<Placemark>
+			<name>Mill Reef House</name>
+			<Point>
+				<coordinates>114.161278,22.331834,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wing On Building</name>
+			<Point>
+				<coordinates>114.161477,22.33167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hung Yick Building</name>
+			<Point>
+				<coordinates>114.161149,22.331347,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sui Cheong House</name>
+			<Point>
+				<coordinates>114.161062,22.331388,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Asian Building</name>
+			<Point>
+				<coordinates>114.161365,22.331723,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lan Fong Building</name>
+			<Point>
+				<coordinates>114.161262,22.331251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kam Fai Building</name>
+			<Point>
+				<coordinates>114.161006,22.332041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yau Hing Building</name>
+			<Point>
+				<coordinates>114.161608,22.331561,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prosperity Court</name>
+			<Point>
+				<coordinates>114.160897,22.331311,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wing Luen Mansion</name>
+			<Point>
+				<coordinates>114.161576,22.331963,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kau On Building</name>
+			<Point>
+				<coordinates>114.161455,22.331123,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chong Fat Commercial Building</name>
+			<Point>
+				<coordinates>114.160938,22.332097,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>10</name>
+		<Placemark>
+			<name>Sin Hua Bank Building</name>
+			<Point>
+				<coordinates>114.162737,22.330735,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fu On Commercial Building</name>
+			<Point>
+				<coordinates>114.163014,22.330491,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheong Lok Building</name>
+			<Point>
+				<coordinates>114.162775,22.330084,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheung Lee Building</name>
+			<Point>
+				<coordinates>114.162192,22.330532,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shui Sing Building</name>
+			<Point>
+				<coordinates>114.162542,22.33087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mayfair Building</name>
+			<Point>
+				<coordinates>114.162944,22.330913,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wah Tong House</name>
+			<Point>
+				<coordinates>114.162935,22.329968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>New Pei Ho Building</name>
+			<Point>
+				<coordinates>114.162611,22.329948,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tak Wong Building</name>
+			<Point>
+				<coordinates>114.162399,22.33094,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>11</name>
+		<Placemark>
+			<name>Iskra Building</name>
+			<Point>
+				<coordinates>114.164299,22.329494,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheung Sha Mansion</name>
+			<Point>
+				<coordinates>114.164537,22.329306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lin Cheong Building</name>
+			<Point>
+				<coordinates>114.164182,22.328994,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheung Lee Building</name>
+			<Point>
+				<coordinates>114.163993,22.329136,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Joy Wise Mansion</name>
+			<Point>
+				<coordinates>114.164258,22.328937,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dah Sing Building</name>
+			<Point>
+				<coordinates>114.164162,22.329596,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nam Pont Building</name>
+			<Point>
+				<coordinates>114.163606,22.329188,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fook Wan Mansion</name>
+			<Point>
+				<coordinates>114.164559,22.329651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wing Wah Building</name>
+			<Point>
+				<coordinates>114.164612,22.328673,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Po Cheung Building</name>
+			<Point>
+				<coordinates>114.16407,22.329726,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>12</name>
+		<Placemark>
+			<name>Charming Building</name>
+			<Point>
+				<coordinates>114.165667,22.32832,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Celebrity Court</name>
+			<Point>
+				<coordinates>114.165847,22.328285,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheung Ming Building</name>
+			<Point>
+				<coordinates>114.165639,22.328459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Maple Mansion</name>
+			<Point>
+				<coordinates>114.166157,22.328346,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Po Lung Building</name>
+			<Point>
+				<coordinates>114.165812,22.327468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hung Fuk House</name>
+			<Point>
+				<coordinates>114.165939,22.328544,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tung Shing Court</name>
+			<Point>
+				<coordinates>114.166074,22.327516,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hip Kwan House</name>
+			<Point>
+				<coordinates>114.165306,22.328711,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>13</name>
+		<Placemark>
+			<name>Hang Shing Building</name>
+			<Point>
+				<coordinates>114.16697,22.327422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheung Shing Building</name>
+			<Point>
+				<coordinates>114.167226,22.326674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Galloway Mansion</name>
+			<Point>
+				<coordinates>114.167105,22.326747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yue Wah Building</name>
+			<Point>
+				<coordinates>114.166909,22.326898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Emerald Twenty Eight</name>
+			<Point>
+				<coordinates>114.16766,22.327298,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>United Chinese Bank Building</name>
+			<Point>
+				<coordinates>114.167743,22.327129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hang Shun Building</name>
+			<Point>
+				<coordinates>114.166949,22.326611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheung Hong Mansion</name>
+			<Point>
+				<coordinates>114.166828,22.327508,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>14</name>
+		<Placemark>
+			<name>Tai Sang Bank Building</name>
+			<Point>
+				<coordinates>114.168272,22.325731,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hanley House</name>
+			<Point>
+				<coordinates>114.168273,22.325503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Union Park Centre</name>
+			<Point>
+				<coordinates>114.167901,22.325293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Amber House</name>
+			<Point>
+				<coordinates>114.167885,22.325503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lei Yin Building</name>
+			<Point>
+				<coordinates>114.168273,22.325684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sin Hua Bank Building</name>
+			<Point>
+				<coordinates>114.168361,22.325336,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lee Tat Building</name>
+			<Point>
+				<coordinates>114.1678,22.325763,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lee May Building</name>
+			<Point>
+				<coordinates>114.168234,22.325906,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hang On Building</name>
+			<Point>
+				<coordinates>114.168564,22.325494,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grandwin Court</name>
+			<Point>
+				<coordinates>114.167979,22.324984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Orchid House</name>
+			<Point>
+				<coordinates>114.168467,22.325864,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wah Yick Mansion</name>
+			<Point>
+				<coordinates>114.167731,22.324941,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Summit Insurance Building</name>
+			<Point>
+				<coordinates>114.167691,22.325864,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>15</name>
+		<Placemark>
+			<name>Bijou Apartments</name>
+			<Point>
+				<coordinates>114.168828,22.323867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>European Asian Bank Building</name>
+			<Point>
+				<coordinates>114.168243,22.323497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Edward Mansion</name>
+			<Point>
+				<coordinates>114.168259,22.323731,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cosmopolitan Centre</name>
+			<Point>
+				<coordinates>114.168647,22.32355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kwan Ngan House</name>
+			<Point>
+				<coordinates>114.16815,22.324209,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Allied Plaza</name>
+			<Point>
+				<coordinates>114.168841,22.323731,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Golden Plaza</name>
+			<Point>
+				<coordinates>114.168327,22.32318,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yiu Chung Building</name>
+			<Point>
+				<coordinates>114.168065,22.32337,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Honland Building</name>
+			<Point>
+				<coordinates>114.167952,22.324165,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>16</name>
+		<Placemark>
+			<name>Kingland Apartments</name>
+			<Point>
+				<coordinates>114.16861,22.321769,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lee Wah Building</name>
+			<Point>
+				<coordinates>114.169104,22.321715,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Carprio Mansion</name>
+			<Point>
+				<coordinates>114.168431,22.322168,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pioneer Centre</name>
+			<Point>
+				<coordinates>114.169011,22.322583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chun Yee Building</name>
+			<Point>
+				<coordinates>114.168671,22.321437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lee Fat Building</name>
+			<Point>
+				<coordinates>114.168357,22.321789,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Central Commercial Tower</name>
+			<Point>
+				<coordinates>114.169213,22.321597,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>17</name>
+		<Placemark>
+			<name>Le Diamant</name>
+			<Point>
+				<coordinates>114.168899,22.32031,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Argyle Centre Phase 1</name>
+			<Point>
+				<coordinates>114.169634,22.319934,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Winner Mansion</name>
+			<Point>
+				<coordinates>114.168967,22.319974,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punfet Building</name>
+			<Point>
+				<coordinates>114.168962,22.32011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>T.O.P This is our place</name>
+			<Point>
+				<coordinates>114.169452,22.32058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Trade Department Tower</name>
+			<Point>
+				<coordinates>114.169425,22.320607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cornwall Court</name>
+			<Point>
+				<coordinates>114.16901,22.319789,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hua Chiao Commercial Centre</name>
+			<Point>
+				<coordinates>114.169504,22.319861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pat Chun Mansion</name>
+			<Point>
+				<coordinates>114.16884,22.320606,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>18</name>
+		<Placemark>
+			<name>Toa Tak Building</name>
+			<Point>
+				<coordinates>114.16974,22.318646,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bank of East Asia Building, Mongkok</name>
+			<Point>
+				<coordinates>114.169773,22.318494,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wu Sang House</name>
+			<Point>
+				<coordinates>114.169269,22.318534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bank Centre</name>
+			<Point>
+				<coordinates>114.169974,22.318184,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lee Wai Building</name>
+			<Point>
+				<coordinates>114.169696,22.318862,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>One Grand Tower</name>
+			<Point>
+				<coordinates>114.169311,22.317738,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Far East Consortium Mongkok Building</name>
+			<Point>
+				<coordinates>114.169048,22.318509,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yau Shing Commercial Centre</name>
+			<Point>
+				<coordinates>114.169934,22.318609,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HSBC Building Mongkok</name>
+			<Point>
+				<coordinates>114.169172,22.318772,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>19</name>
+		<Placemark>
+			<name>Hollywood Plaza</name>
+			<Point>
+				<coordinates>114.170172,22.316871,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>President Commercial Centre</name>
+			<Point>
+				<coordinates>114.170257,22.316446,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chong Hing Square</name>
+			<Point>
+				<coordinates>114.169702,22.31625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sun Hing Building</name>
+			<Point>
+				<coordinates>114.169734,22.316637,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Foo Tai Building</name>
+			<Point>
+				<coordinates>114.170437,22.316536,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>South China Cinemas 1 &amp; 2</name>
+			<Point>
+				<coordinates>114.16954,22.316637,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mongkok Metro</name>
+			<Point>
+				<coordinates>114.170213,22.316283,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>20</name>
+		<Placemark>
+			<name>Kelly Commercial Centre</name>
+			<Point>
+				<coordinates>114.170512,22.31506,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kiu Kin Building</name>
+			<Point>
+				<coordinates>114.170484,22.314863,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bank Of Communications Building</name>
+			<Point>
+				<coordinates>114.170088,22.314628,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ginza Square</name>
+			<Point>
+				<coordinates>114.17009,22.314756,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ming Fong Building</name>
+			<Point>
+				<coordinates>114.17056,22.314798,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ladder Dundas</name>
+			<Point>
+				<coordinates>114.170015,22.315124,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hang Lung Mansion</name>
+			<Point>
+				<coordinates>114.170462,22.315284,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Full Win Commercial Centre</name>
+			<Point>
+				<coordinates>114.170019,22.314954,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wofoo Commercial Building</name>
+			<Point>
+				<coordinates>114.170489,22.315171,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grand Place</name>
+			<Point>
+				<coordinates>114.170678,22.314502,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yaumati C.P.M.S. Church, School &amp; Kindergarten</name>
+			<Point>
+				<coordinates>114.169838,22.314623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ko&apos;s House</name>
+			<Point>
+				<coordinates>114.169902,22.315224,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>21</name>
+		<Placemark>
+			<name>Wing Kiu Building</name>
+			<Point>
+				<coordinates>114.170839,22.31338,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Onward Building</name>
+			<Point>
+				<coordinates>114.170886,22.313216,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lai Kee Mansion</name>
+			<Point>
+				<coordinates>114.170459,22.312755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wing Tak Building</name>
+			<Point>
+				<coordinates>114.170144,22.313112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jade Mansion</name>
+			<Point>
+				<coordinates>114.170998,22.312794,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bell House</name>
+			<Point>
+				<coordinates>114.170451,22.313269,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tung Yu Building</name>
+			<Point>
+				<coordinates>114.171022,22.3136,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>22</name>
+		<Placemark>
+			<name>Ek Nam Building</name>
+			<Point>
+				<coordinates>114.171206,22.311485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hung Hsing Building</name>
+			<Point>
+				<coordinates>114.171177,22.311309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hong Lok House</name>
+			<Point>
+				<coordinates>114.170803,22.311102,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Casa Deluxe Hotel</name>
+			<Point>
+				<coordinates>114.170789,22.311309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Quality Education Tower</name>
+			<Point>
+				<coordinates>114.171177,22.311128,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shing Hing Building</name>
+			<Point>
+				<coordinates>114.170789,22.31149,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oxford Commercial Building</name>
+			<Point>
+				<coordinates>114.171165,22.311675,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Salvation Army Headquarters</name>
+			<Point>
+				<coordinates>114.171371,22.311309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wing Sing Commercial Building</name>
+			<Point>
+				<coordinates>114.171506,22.310879,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bridal Tea House Hotel</name>
+			<Point>
+				<coordinates>114.170639,22.310991,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prospect Building</name>
+			<Point>
+				<coordinates>114.170692,22.311655,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>23</name>
+		<Placemark>
+			<name>Tang&apos;s Mansion</name>
+			<Point>
+				<coordinates>114.171538,22.30979,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nathan Commercial Building</name>
+			<Point>
+				<coordinates>114.171597,22.309613,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kowloon Government Offices</name>
+			<Point>
+				<coordinates>114.170932,22.309449,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chak Fung House</name>
+			<Point>
+				<coordinates>114.171507,22.309919,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tin Hau Temple</name>
+			<Point>
+				<coordinates>114.170742,22.309921,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>24</name>
+		<Placemark>
+			<name>Hang Shing Building</name>
+			<Point>
+				<coordinates>114.171059,22.307973,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nathan Hotel</name>
+			<Point>
+				<coordinates>114.171589,22.307719,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Eaton Hotel</name>
+			<Point>
+				<coordinates>114.171859,22.307978,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wing On Kowloon Centre</name>
+			<Point>
+				<coordinates>114.171201,22.307538,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Excelsior Building</name>
+			<Point>
+				<coordinates>114.171666,22.307362,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>25</name>
+		<Placemark>
+			<name>CHI Residences 314</name>
+			<Point>
+				<coordinates>114.171769,22.306227,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>May Ming Building</name>
+			<Point>
+				<coordinates>114.171808,22.30604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Champion Building</name>
+			<Point>
+				<coordinates>114.171325,22.305653,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hong Kiu Mansion</name>
+			<Point>
+				<coordinates>114.171286,22.306064,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>New Lucky House</name>
+			<Point>
+				<coordinates>114.171764,22.305739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ka Nam House</name>
+			<Point>
+				<coordinates>114.17204,22.306015,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>David House</name>
+			<Point>
+				<coordinates>114.171958,22.306281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Backingham Building</name>
+			<Point>
+				<coordinates>114.171182,22.306281,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>26</name>
+		<Placemark>
+			<name>Prudential Hotel</name>
+			<Point>
+				<coordinates>114.171964,22.30432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hanford House</name>
+			<Point>
+				<coordinates>114.17147,22.303856,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shamrock Hotel</name>
+			<Point>
+				<coordinates>114.171518,22.304119,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fourseas Building</name>
+			<Point>
+				<coordinates>114.171998,22.303842,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pearl Oriental Tower</name>
+			<Point>
+				<coordinates>114.171418,22.30447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tung Cheong Commercial Building</name>
+			<Point>
+				<coordinates>114.171473,22.303696,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prudential Centre</name>
+			<Point>
+				<coordinates>114.171978,22.304331,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Far East Consortium Building</name>
+			<Point>
+				<coordinates>114.1721,22.303758,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fu Lee Commercial Building</name>
+			<Point>
+				<coordinates>114.171272,22.303794,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>27</name>
+		<Placemark>
+			<name>Pacific Mansion</name>
+			<Point>
+				<coordinates>114.172111,22.302473,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St. Andrew&apos;s Church Life Centre</name>
+			<Point>
+				<coordinates>114.172027,22.302316,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A. Kun Lock Building</name>
+			<Point>
+				<coordinates>114.172088,22.30276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Good Results Building</name>
+			<Point>
+				<coordinates>114.172104,22.302579,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>28</name>
+		<Placemark>
+			<name>Miramar Shopping Centre</name>
+			<Point>
+				<coordinates>114.172186,22.30086,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel Miramar</name>
+			<Point>
+				<coordinates>114.172421,22.300282,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>miramall</name>
+			<Point>
+				<coordinates>114.172433,22.300162,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>29</name>
+		<Placemark>
+			<name>Comfort Building</name>
+			<Point>
+				<coordinates>114.17235,22.299002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Majestic House</name>
+			<Point>
+				<coordinates>114.172387,22.298579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HSBC Building Tsim Sha Tsui</name>
+			<Point>
+				<coordinates>114.172508,22.298857,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Manson House</name>
+			<Point>
+				<coordinates>114.172406,22.298371,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>30</name>
+		<Placemark>
+			<name>Mirador Mansion</name>
+			<Point>
+				<coordinates>114.172586,22.297342,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Holiday Inn Golden Mile Hong Kong</name>
+			<Point>
+				<coordinates>114.172781,22.296817,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chungking Mansions Block A</name>
+			<Point>
+				<coordinates>114.172512,22.296473,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kar Lock Building</name>
+			<Point>
+				<coordinates>114.171491,22.296765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alpha House</name>
+			<Point>
+				<coordinates>114.171987,22.296264,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Harilela Mansion</name>
+			<Point>
+				<coordinates>114.171819,22.297471,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wing Lock House</name>
+			<Point>
+				<coordinates>114.171494,22.296561,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>31</name>
+		<Placemark>
+			<name>Sheraton Hong Kong Hotel &amp; Towers</name>
+			<Point>
+				<coordinates>114.172722,22.295229,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Peninsula</name>
+			<Point>
+				<coordinates>114.172151,22.295107,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Peninsula Hotel Office Tower</name>
+			<Point>
+				<coordinates>114.171957,22.295468,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

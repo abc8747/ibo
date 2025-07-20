@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>1_separated.kml</name>
+	<open>1</open>
+	<Style id="default">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://drive.google.com/uc?export=download&amp;id=1FA-bqmqCBwDmeHImrtozKnB0JgiEtNIF</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="default0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1586793,22.2832781,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1582077,22.2818352,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1589464,22.280792,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1600927,22.2799548,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1605334,22.2789475,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#default0</styleUrl>
+			<Point>
+				<coordinates>114.1590313,22.2778306,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

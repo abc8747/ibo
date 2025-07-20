@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>2_buildings.kml</name>
+	<open>1</open>
+	<Style id="failed11">
+	</Style>
+	<Style id="failed300">
+	</Style>
+	<Style id="failed28">
+	</Style>
+	<StyleMap id="failed4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed20">
+	</Style>
+	<StyleMap id="failed170">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed1">
+	</Style>
+	<Style id="failed9">
+	</Style>
+	<Style id="failed5">
+	</Style>
+	<StyleMap id="failed8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed18">
+	</Style>
+	<StyleMap id="failed2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed251">
+	</Style>
+	<Style id="failed25">
+	</Style>
+	<StyleMap id="failed171">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed32</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed251</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="failed21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed0">
+	</Style>
+	<StyleMap id="failed13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed180">
+	</Style>
+	<StyleMap id="failed17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed250</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed12">
+	</Style>
+	<Style id="failed32">
+	</Style>
+	<StyleMap id="failed150">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed10">
+	</Style>
+	<Style id="failed6">
+	</Style>
+	<StyleMap id="failed26">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed28</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="failed31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed90">
+	</Style>
+	<Style id="failed3">
+	</Style>
+	<StyleMap id="failed15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed90</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed180</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="failed23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed24">
+	</Style>
+	<Style id="failed250">
+	</Style>
+	<Style id="failed7">
+	</Style>
+	<StyleMap id="failed22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed">
+	</Style>
+	<Style id="failed19">
+	</Style>
+	<Style id="failed16">
+	</Style>
+	<Style id="failed14">
+	</Style>
+	<Style id="failed30">
+	</Style>
+	<Style id="failed27">
+	</Style>
+	<Style id="failed29">
+	</Style>
+	<Folder>
+		<name>0</name>
+		<open>1</open>
+		<Placemark>
+			<name>IFC Mall</name>
+			<styleUrl>#failed150</styleUrl>
+			<Point>
+				<coordinates>114.1589523164826,22.28416184947861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Two Exchange Square</name>
+			<styleUrl>#failed15</styleUrl>
+			<Point>
+				<coordinates>114.1584345310935,22.28335553362282,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jardine House</name>
+			<styleUrl>#failed13</styleUrl>
+			<Point>
+				<coordinates>114.1590561454111,22.2830619996524,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>General Post Office</name>
+			<styleUrl>#failed22</styleUrl>
+			<Point>
+				<coordinates>114.159423480834,22.28354775266233,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>1</name>
+		<open>1</open>
+		<Placemark>
+			<name>Chater House</name>
+			<styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+			<Point>
+				<coordinates>114.1584715,22.2821259,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alexandra House</name>
+			<styleUrl>#failed2</styleUrl>
+			<Point>
+				<coordinates>114.1585205974083,22.28152166671746,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gloucester Tower</name>
+			<styleUrl>#failed23</styleUrl>
+			<Point>
+				<coordinates>114.1578182767239,22.28150751264369,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>World Wide House</name>
+			<styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+			<Point>
+				<coordinates>114.1578638,22.2825367,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>2</name>
+		<open>1</open>
+		<Placemark>
+			<name>China Construction Bank</name>
+			<styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+			<Point>
+				<coordinates>114.1587841,22.280709,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prince&apos;s Building</name>
+			<styleUrl>#failed21</styleUrl>
+			<Point>
+				<coordinates>114.1591483254175,22.28112058120364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Standard Chartered Bank Building</name>
+			<styleUrl>#failed31</styleUrl>
+			<Point>
+				<coordinates>114.1590974218819,22.280426757273,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>3</name>
+		<open>1</open>
+		<Placemark>
+			<name>Cheung Kong</name>
+			<styleUrl>#failed8</styleUrl>
+			<Point>
+				<coordinates>114.1605505530596,22.27958575770889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HSBC Building</name>
+			<styleUrl>#failed4</styleUrl>
+			<Point>
+				<coordinates>114.1596126773471,22.28018654796401,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Former French Mission Building</name>
+			<styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+			<Point>
+				<coordinates>114.159665,22.2795998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bank of China Building</name>
+			<open>1</open>
+			<styleUrl>#failed26</styleUrl>
+			<Point>
+				<coordinates>114.1601131569949,22.28016907835145,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>4</name>
+		<open>1</open>
+		<Placemark>
+			<name>Cheung Kong Park</name>
+			<styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+			<Point>
+				<coordinates>114.1603462,22.2791051,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bank of China Tower</name>
+			<styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+			<Point>
+				<coordinates>114.161329,22.2792248,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Three Garden Road Central</name>
+			<styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+			<Point>
+				<coordinates>114.1605692,22.2785604,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>5</name>
+		<open>1</open>
+		<Placemark>
+			<name>Peak Tram</name>
+			<styleUrl>#failed171</styleUrl>
+			<Point>
+				<coordinates>114.1591789857601,22.27767668211579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Consulate General of the United States of America</name>
+			<open>1</open>
+			<styleUrl>#failed170</styleUrl>
+			<Point>
+				<coordinates>114.1586377253544,22.27791398616857,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Helena May</name>
+			<open>1</open>
+			<styleUrl>#failed17</styleUrl>
+			<Point>
+				<coordinates>114.1585337682503,22.27746196143611,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
