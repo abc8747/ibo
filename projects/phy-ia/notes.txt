@@ -1,0 +1,13 @@
+O top, without string -0.03, 6.68
+|
+|
+|
+|
+O top, without string -0.03, 6.32
+
+90.5 - NIK_0240
+rod length: 19.82cm
+rod radius: 5.348 mm
+
+motion detection based on temporal difference
+three-frame difference motion tracking
