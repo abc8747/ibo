@@ -1,0 +1,10 @@
+certifi==2021.5.30
+charset-normalizer==2.0.4
+colorama==0.4.4
+commonmark==0.9.1
+googlemaps==4.5.3
+idna==3.2
+Pygments==2.9.0
+requests==2.26.0
+rich==10.6.0
+urllib3==1.26.6

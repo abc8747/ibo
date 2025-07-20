@@ -1,0 +1,7 @@
+.venv
+*/*:Zone.Identifier
+main.docx
+gis/Whole_HK_DTM_5m.asc
+gis/all/mtr.tif
+gis/all/kmb.tif
+gis/all/dtm.tif

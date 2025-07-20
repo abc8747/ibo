@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: An investigation into the traffic congestion in Kwun Tong, Hong Kong.
+message: If you use this software, please cite it as below.
+url: https://github.com/cathaypacific8747/geo-ee
+doi: 10.5281/zenodo.6814244
+date-released: 2022-07-30
+authors:
+  - given-names: Yan Lok
+    family-names: Cheung
+    affiliation: Po Leung Kuk Choi Kai Yau School
+    orcid: https://orcid.org/0000-0002-9640-6640
