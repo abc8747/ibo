@@ -2,7 +2,7 @@
 
 This paper was submitted as an in-school practice "mini" Internal Assessment for the International Baccalaureate Physics Higher Level exams (May 2022).
 
-The original submission and marked submission can be downloaded [here](https://cathaypacific8747.github.io/papers/6), licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The original submission and marked submission can be downloaded [here](https://ylcheung.com/papers/what-is-the-relationship-between-the-wrap-angle-of-a-capstan-and-the-loading-force/), licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Abstract
 

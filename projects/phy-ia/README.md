@@ -2,9 +2,9 @@
 
 This repository contains the code for my International Baccalaureate Physics Internal Assessment (May 2022 examinations).
 
-You can download the original paper submitted to the IBO [here](https://cathaypacific8747.github.io/papers/2), licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+You can download the original paper submitted to the IBO [here](https://ylcheung.com/papers/how-does-the-length-of-the-filars-in-a-bifilar-pendulum-affect-its-period/), licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-If you want to generate the 2D error heatmap - check out a simplified version of this repo [here](https://github.com/cathaypacific8747/physics-ia-tools). Learn how to use it [here](https://www.youtube.com/watch?v=_XkFRxyUN4g)!
+If you want to generate the 2D error heatmap - check out a simplified version of this repo [here](https://github.com/abc8747/ibo). Learn how to use it [here](https://www.youtube.com/watch?v=_XkFRxyUN4g)!
 
 ## Abstract
 

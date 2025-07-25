@@ -72,4 +72,4 @@ The following files are compressed/missing:
 - `section3/gis/shapefiles/S_buildings_geometry_old.zip` - extract it.
 - `section3/gis/shapefiles/W_buildings_geometry_old.zip` - extract it.
 - `section3/gis/iB1000.gdb` - [download here](https://data.gov.hk/en-data/dataset/hk-landsd-openmap-development-hkms-digital-b1k/resource/a3aa069d-9f40-460c-87bf-486b49173846), relink the path in QGIS.
-- some datasets are shared with my [geography EE](https://github.com/cathaypacific8747/geo-ee), if there are any missing datasets follow the `Remarks` section in the README.
+- some datasets are shared with my [geography EE](https://github.com/abc8747/ibo), if there are any missing datasets follow the `Remarks` section in the README.
